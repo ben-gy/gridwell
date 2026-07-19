@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gridwell.benrichardson.dev/sitemap.xml

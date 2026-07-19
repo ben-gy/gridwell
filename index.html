@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://static.cloudflareinsights.com; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data: https://cloudflareinsights.com https://feedback.benrichardson.dev; form-action 'none'; base-uri 'self'; object-src 'none'"
+    />
+    <meta
+      name="description"
+      content="Open, query and convert huge CSV files in your browser — nothing is ever uploaded."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta property="og:title" content="Gridwell" />
+    <meta
+      property="og:description"
+      content="Open, query and convert huge CSV files in your browser — nothing is ever uploaded."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gridwell.benrichardson.dev/" />
+    <meta property="og:image" content="https://gridwell.benrichardson.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gridwell" />
+    <meta
+      name="twitter:description"
+      content="Open, query and convert huge CSV files in your browser — nothing is ever uploaded."
+    />
+    <meta name="twitter:image" content="https://gridwell.benrichardson.dev/og.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Gridwell — open and query huge CSV files in your browser</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Gridwell",
+        "description": "Open, query and convert huge CSV files in your browser — nothing is ever uploaded.",
+        "url": "https://gridwell.benrichardson.dev/",
+        "image": "https://gridwell.benrichardson.dev/og.png",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web browser",
+        "browserRequirements": "Requires JavaScript and WebAssembly",
+        "author": { "@type": "Person", "name": "Ben Richardson", "url": "https://benrichardson.dev" },
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "ba2bab2193ba42c1bea3d6714fcd0e28"}'
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="2.5" y="3.5" width="19" height="17" rx="2.5" />
+            <path d="M2.5 9h19M9 9v11.5M15.5 9v11.5" />
+          </svg>
+          <span class="brand-name">Gridwell</span>
+        </div>
+        <nav class="topnav" aria-label="About this tool">
+          <button type="button" class="topnav-button" data-modal-open="modal-how">
+            How it works
+          </button>
+          <button type="button" class="topnav-button" data-modal-open="modal-privacy">
+            Privacy
+          </button>
+          <button type="button" class="topnav-button" data-modal-open="modal-about">About</button>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <!-- ── Landing ─────────────────────────────────────────────── -->
+        <section class="intro" id="intro">
+          <h1 class="intro-title">Your CSV is too big for Excel.</h1>
+          <p class="intro-lede">
+            Gridwell opens it anyway — millions of rows, filtered and exported in seconds. It runs
+            <button type="button" class="glossary-link" data-term="duckdb">DuckDB</button> compiled
+            to <button type="button" class="glossary-link" data-term="webassembly">WebAssembly</button>
+            inside this tab, so your file is read straight off your own disk.
+          </p>
+
+          <button type="button" class="trust-banner" data-modal-open="modal-privacy">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="trust-icon">
+              <path d="M12 2.5 4.5 5.8v5.4c0 4.6 3.2 8.9 7.5 10.3 4.3-1.4 7.5-5.7 7.5-10.3V5.8Z" />
+              <path d="m8.8 12 2.2 2.2 4.2-4.4" />
+            </svg>
+            <span>
+              <strong>Nothing is uploaded.</strong> No server ever sees your file, your column names
+              or your queries.
+            </span>
+            <span class="trust-more">Read the privacy model →</span>
+          </button>
+
+          <div
+            class="dropzone"
+            id="dropzone"
+            role="button"
+            tabindex="0"
+            aria-label="Choose a data file to open"
+          >
+            <svg class="dropzone-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 15.5V3.5m0 0L7.75 7.75M12 3.5l4.25 4.25" />
+              <path d="M3.5 14.5v4a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-4" />
+            </svg>
+            <p class="dropzone-title">Drop a file here, or click to choose</p>
+            <p class="dropzone-hint">
+              CSV · TSV · JSON · <button type="button" class="glossary-link" data-term="parquet">Parquet</button>
+              — up to several gigabytes
+            </p>
+            <input
+              type="file"
+              id="file-input"
+              class="visually-hidden"
+              accept=".csv,.tsv,.tab,.txt,.json,.ndjson,.jsonl,.parquet,.pq,text/csv,application/json"
+            />
+          </div>
+
+          <ul class="intro-points">
+            <li><strong>No row limit.</strong> Excel stops at 1,048,576. Gridwell does not stop.</li>
+            <li><strong>No upload.</strong> There is no server to upload to.</li>
+            <li><strong>No account.</strong> Open the page, drop the file, get your answer.</li>
+          </ul>
+        </section>
+
+        <!-- ── Loading ─────────────────────────────────────────────── -->
+        <section class="loading" id="loading" hidden>
+          <h2 class="loading-title" id="loading-title">Starting the query engine…</h2>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            id="progress"
+          >
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <p class="loading-detail" id="loading-detail" aria-live="polite">
+            The engine is about 35 MB and is cached after the first visit.
+          </p>
+        </section>
+
+        <!-- ── Workspace ───────────────────────────────────────────── -->
+        <section class="workspace" id="workspace" hidden>
+          <div class="source-bar">
+            <div class="source-facts">
+              <span class="source-name" id="source-name">—</span>
+              <span class="source-stat" id="source-rows">—</span>
+              <span class="source-stat" id="source-cols">—</span>
+              <span class="source-stat" id="source-size">—</span>
+            </div>
+            <button type="button" class="button button-ghost" id="open-another">Open another file</button>
+          </div>
+
+          <div class="panels">
+            <aside class="panel schema-panel" aria-label="Columns">
+              <div class="panel-head">
+                <h2 class="panel-title">
+                  <button type="button" class="glossary-link" data-term="schema">Columns</button>
+                </h2>
+                <button type="button" class="link-button" id="columns-all">All</button>
+              </div>
+              <ul class="column-list" id="column-list"></ul>
+            </aside>
+
+            <div class="panel query-panel">
+              <div class="panel-head">
+                <h2 class="panel-title">Query</h2>
+                <div class="panel-head-actions">
+                  <button type="button" class="link-button" id="reset-query">Reset</button>
+                  <button type="button" class="link-button" id="copy-sql">Copy SQL</button>
+                </div>
+              </div>
+
+              <div class="builder">
+                <div class="filter-rows" id="filter-rows"></div>
+                <button type="button" class="link-button add-filter" id="add-filter">
+                  + Add a filter
+                </button>
+
+                <div class="builder-row">
+                  <label class="field">
+                    <span class="field-label">Sort by</span>
+                    <select class="input" id="sort-column">
+                      <option value="">(none)</option>
+                    </select>
+                  </label>
+                  <label class="field field-narrow">
+                    <span class="field-label">Order</span>
+                    <select class="input" id="sort-direction">
+                      <option value="asc">Ascending</option>
+                      <option value="desc">Descending</option>
+                    </select>
+                  </label>
+                  <label class="field field-narrow">
+                    <span class="field-label">Limit</span>
+                    <input class="input" id="limit-input" type="number" min="0" placeholder="none" />
+                  </label>
+                </div>
+              </div>
+
+              <label class="field sql-field">
+                <span class="field-label">
+                  <button type="button" class="glossary-link" data-term="sql">SQL</button>
+                  <span class="field-hint">— edit freely; <kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>Enter</kbd> runs</span>
+                </span>
+                <textarea class="input sql-editor" id="sql-editor" spellcheck="false" rows="6"></textarea>
+              </label>
+
+              <div class="query-actions">
+                <button type="button" class="button button-primary" id="run-query">Run query</button>
+                <span class="query-status" id="query-status" role="status" aria-live="polite"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel result-panel">
+            <div class="panel-head">
+              <h2 class="panel-title">Results</h2>
+              <div class="export-actions">
+                <span class="export-label">Export</span>
+                <button type="button" class="button button-small" data-export="csv">CSV</button>
+                <button type="button" class="button button-small" data-export="json">JSON</button>
+                <button type="button" class="button button-small" data-export="parquet">Parquet</button>
+                <button type="button" class="button button-small" id="share-result" hidden>Share</button>
+              </div>
+            </div>
+            <p class="result-note" id="result-note"></p>
+            <div class="grid-host" id="grid"></div>
+            <div class="cell-inspector" id="cell-inspector" hidden>
+              <span class="cell-inspector-label" id="cell-label"></span>
+              <code class="cell-inspector-value" id="cell-value"></code>
+              <button type="button" class="link-button" id="copy-cell">Copy</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Fatal ───────────────────────────────────────────────── -->
+        <section class="fatal" id="fatal" hidden>
+          <h2 class="fatal-title" id="fatal-title">Something went wrong</h2>
+          <p class="fatal-detail" id="fatal-detail"></p>
+          <button type="button" class="button button-primary" id="fatal-retry">Try again</button>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          Built by
+          <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a>
+          ·
+          <a href="https://sites.benrichardson.dev" target="_blank" rel="noopener"
+            >more tools &amp; sites</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!-- ── Event log ─────────────────────────────────────────────── -->
+    <button type="button" class="eventlog-toggle" id="eventlog-toggle" aria-expanded="false">
+      Activity
+      <span class="eventlog-count" id="eventlog-count" hidden>0</span>
+    </button>
+    <aside class="eventlog" id="eventlog" aria-hidden="true" aria-label="Activity log">
+      <div class="eventlog-head">
+        <h2 class="eventlog-title">Activity</h2>
+        <button type="button" class="eventlog-close" aria-label="Close activity log">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <p class="eventlog-blurb">Everything Gridwell does, as it happens. All of it local.</p>
+      <ul class="eventlog-list"></ul>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- ── Modals ────────────────────────────────────────────────── -->
+    <div class="modal" id="modal-how" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="how-title">
+      <div class="modal-panel">
+        <div class="modal-head">
+          <h2 class="modal-title" id="how-title">How Gridwell works</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="Close">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ol class="steps">
+            <li>
+              <h3>1 · A database engine loads into the tab</h3>
+              <p>
+                DuckDB — the same analytical engine data teams run on servers — is compiled to
+                <button type="button" class="glossary-link" data-term="webassembly">WebAssembly</button>
+                and shipped inside this page. It runs in a Web Worker, so a long scan never freezes
+                the interface. It is served from this site, not a CDN, so no third party learns that
+                you opened it.
+              </p>
+            </li>
+            <li>
+              <h3>2 · Your file is registered, not uploaded</h3>
+              <p>
+                Gridwell hands the engine a reference to the file you picked. DuckDB then reads it
+                in ranges, directly off your disk, as each query needs it — which is why a 2 GB file
+                opens as quickly as a 2 MB one and never has to fit in memory.
+              </p>
+            </li>
+            <li>
+              <h3>3 · The dialect and types are sniffed</h3>
+              <p>
+                Delimiter, quoting, header row and the type of every column are detected by scanning
+                the file. Gridwell reads all of it rather than a sample, which is what stops a column
+                being guessed as a whole number and then failing eight hundred thousand rows later.
+              </p>
+            </li>
+            <li>
+              <h3>4 · You filter, in clicks or in SQL</h3>
+              <p>
+                The builder writes real
+                <button type="button" class="glossary-link" data-term="sql">SQL</button>
+                into the editor as you click, so you can start with buttons and end up editing the
+                query directly. Only read-only statements run — nothing can modify your file.
+              </p>
+            </li>
+            <li>
+              <h3>5 · Results come back column-at-a-time</h3>
+              <p>
+                Results arrive in a
+                <button type="button" class="glossary-link" data-term="columnar">columnar</button>
+                format the grid can read
+                <button type="button" class="glossary-link" data-term="zero-copy">zero-copy</button>.
+                Only the rows on screen are drawn, so scrolling stays smooth at any size.
+              </p>
+            </li>
+            <li>
+              <h3>6 · You export what you actually needed</h3>
+              <p>
+                Write the filtered result back out as CSV, JSON or
+                <button type="button" class="glossary-link" data-term="parquet">Parquet</button>.
+                The export is generated in the tab and handed straight to your browser's downloads.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-privacy" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+      <div class="modal-panel">
+        <div class="modal-head">
+          <h2 class="modal-title" id="privacy-title">Privacy &amp; threat model</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="Close">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3 class="model-heading is-good">Protected</h3>
+          <ul class="model-list">
+            <li>
+              <strong>The contents of your file.</strong> It is read by the WebAssembly engine inside
+              this tab. There is no upload endpoint in this application — not a slow one, not an
+              optional one. None.
+            </li>
+            <li>
+              <strong>Your column names, row counts and schema.</strong> Never transmitted, never
+              logged, never used for analytics.
+            </li>
+            <li>
+              <strong>Every query you write.</strong> The SQL runs locally and is not recorded
+              anywhere outside this tab.
+            </li>
+            <li>
+              <strong>Your exports.</strong> Generated in memory and handed to your browser's
+              download machinery directly.
+            </li>
+            <li>
+              <strong>Nothing survives the tab.</strong> The database is in-memory. Close the tab and
+              every trace of your data is gone. Only interface preferences are stored locally.
+            </li>
+          </ul>
+
+          <h3 class="model-heading is-warn">Not protected</h3>
+          <ul class="model-list">
+            <li>
+              <strong>That you visited.</strong> An anonymous page view is counted (see below), and
+              your network operator can see you loaded this domain — never what you opened in it.
+            </li>
+            <li>
+              <strong>Anything on your own machine.</strong> This is a local tool, not a vault.
+              Exported files land in your Downloads folder unencrypted, and anyone with access to
+              your device or browser profile can see them.
+            </li>
+            <li>
+              <strong>Shoulder surfing and screen sharing.</strong> Your data is on screen. If you
+              are on a call, it is on their screen too.
+            </li>
+            <li>
+              <strong>Browser extensions.</strong> An extension with permission to read pages can
+              read this one, exactly as it can read any other. Consider a private window for
+              genuinely sensitive files.
+            </li>
+          </ul>
+
+          <h3 class="model-heading is-info">Trust surface</h3>
+          <ul class="model-list">
+            <li>
+              <strong>This site's bundle</strong>, served over TLS by GitHub Pages — including the
+              DuckDB WebAssembly binary, which ships inside it rather than being fetched from a CDN
+              at runtime. The source is public and linked in About.
+            </li>
+            <li><strong>Your browser</strong> and its WebAssembly sandbox.</li>
+            <li>
+              <strong>A Cloudflare Web Analytics beacon</strong> records anonymous page views — no
+              cookies, no fingerprinting, no cross-site tracking; your files and data are never sent
+              to it.
+            </li>
+            <li>
+              <strong>Feedback you choose to send</strong> (and an email address, only if you supply
+              one) is sent to feedback.benrichardson.dev. Nothing is sent unless you open the
+              feedback form and press Send; your files and data never are.
+            </li>
+          </ul>
+          <p class="model-footnote">
+            You do not have to take any of this on faith. Open your browser's developer tools, switch
+            to the Network tab, and load a file — you will see no request carrying your data, because
+            there is none.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-about" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <div class="modal-panel">
+        <div class="modal-head">
+          <h2 class="modal-title" id="about-title">About Gridwell</h2>
+          <button type="button" class="modal-close" data-modal-close aria-label="Close">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Gridwell exists because the honest answer to "my CSV is too big for Excel" used to be
+            "learn pandas" or "upload it to a stranger". Neither is a reasonable thing to tell
+            someone who just needs to filter an export before lunch.
+          </p>
+          <p>
+            It is built on <strong>DuckDB-Wasm</strong>, the WebAssembly build of the DuckDB
+            analytical database, and <strong>Apache Arrow</strong> for moving result sets around
+            without copying them. Both are open source and do the genuinely hard part.
+          </p>
+          <p>
+            Built by
+            <a href="https://benrichardson.dev/" target="_blank" rel="noopener">Ben Richardson</a>.
+            The rest of the catalogue lives at
+            <a href="https://sites.benrichardson.dev" target="_blank" rel="noopener"
+              >sites.benrichardson.dev</a
+            >.
+          </p>
+          <p>
+            Source:
+            <a href="https://github.com/ben-gy/gridwell" target="_blank" rel="noopener"
+              >github.com/ben-gy/gridwell</a
+            >. MIT licensed.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
