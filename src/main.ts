@@ -11,7 +11,6 @@ import './styles/main.css';
 
 import { Engine, EngineUnsupportedError } from './duck';
 import { EventLog } from './eventlog';
-import { mountFeedback } from './feedback';
 import { exportFileName, formatBytes, formatCount, formatDuration, formatValue } from './format';
 import { ResultGrid } from './grid';
 import { initGlossary } from './glossary';
@@ -445,7 +444,6 @@ async function exportAs(format: ExportFormat): Promise<void> {
 function init(): void {
   initModals();
   initGlossary();
-  mountFeedback({ build: 'gridwell' });
 
   initDropZone({
     zone: $('dropzone'),
