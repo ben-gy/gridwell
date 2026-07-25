@@ -319,6 +319,12 @@ body {
   color: var(--text-secondary);
 }
 
+.intro-example {
+  margin: var(--space-md) 0 0;
+  color: var(--text-tertiary);
+  font-size: var(--font-size-sm);
+}
+
 /* ── Loading ─────────────────────────────────────────────────────── */
 .loading {
   max-width: 520px;

@@ -11,6 +11,7 @@ import './styles/main.css';
 
 import { Engine, EngineUnsupportedError } from './duck';
 import { EventLog } from './eventlog';
+import { exampleFile } from './example';
 import { exportFileName, formatBytes, formatCount, formatDuration, formatValue } from './format';
 import { ResultGrid } from './grid';
 import { initGlossary } from './glossary';
@@ -449,6 +450,14 @@ function init(): void {
     zone: $('dropzone'),
     input: $<HTMLInputElement>('file-input'),
     onFile: (file) => void openFile(file),
+  });
+
+  // Nothing to try the tool on unless you brought your own file — so offer one.
+  // It is generated here in the tab, not fetched, so the "nothing is uploaded"
+  // promise still holds for it.
+  $('try-example').addEventListener('click', () => {
+    log.add('info', 'Loaded the built-in example dataset (generated locally, not downloaded)');
+    void openFile(exampleFile());
   });
 
   $('run-query').addEventListener('click', () => void runQuery());
