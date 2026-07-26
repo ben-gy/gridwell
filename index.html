@@ -31,6 +31,12 @@
     />
     <meta name="twitter:image" content="https://gridwell.benrichardson.dev/og.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Gridwell" />
     <title>Gridwell — open and query huge CSV files in your browser</title>
     <script type="application/ld+json">
       {
@@ -113,6 +119,12 @@
               CSV · TSV · JSON · <button type="button" class="glossary-link" data-term="parquet">Parquet</button>
               — up to several gigabytes
             </p>
+            <button type="button" class="sample-link" id="sample-btn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="sample-icon">
+                <path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1M7.7 16.3l-2.1 2.1" />
+              </svg>
+              Try a sample CSV
+            </button>
             <input
               type="file"
               id="file-input"

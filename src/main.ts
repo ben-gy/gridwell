@@ -184,6 +184,24 @@ async function openFile(file: File): Promise<void> {
   if (opened) await runQuery();
 }
 
+/**
+ * Load the bundled demo dataset through the exact same path a real upload
+ * takes — fetch it, wrap it in a File, and hand it to `openFile`.
+ */
+async function loadSample(): Promise<void> {
+  if (busy) return;
+  try {
+    log.add('info', 'Loading the sample dataset — bundled with the app, not fetched from anywhere new');
+    const response = await fetch('samples/demo.csv');
+    if (!response.ok) throw new Error(`sample fetch ${response.status}`);
+    const text = await response.text();
+    await openFile(new File([text], 'sample.csv', { type: 'text/csv' }));
+  } catch (error) {
+    log.add('bad', `Could not load the sample: ${describeError(error)}`);
+    toast('Could not load the sample.', 'bad');
+  }
+}
+
 function renderSource(info: SourceInfo): void {
   $('source-name').textContent = info.fileName;
   $('source-rows').textContent = `${formatCount(info.rowCount)} rows`;
@@ -451,6 +469,13 @@ function init(): void {
     onFile: (file) => void openFile(file),
   });
 
+  $('sample-btn').addEventListener('click', (event) => {
+    // The pill lives inside the dropzone, whose click opens the file picker —
+    // stop the event so it does not also pop the OS file dialog.
+    event.stopPropagation();
+    void loadSample();
+  });
+
   $('run-query').addEventListener('click', () => void runQuery());
   $('add-filter').addEventListener('click', addFilterRow);
   $('reset-query').addEventListener('click', () => {
@@ -544,11 +569,8 @@ function init(): void {
   // attempt during `openFile` surfaces the error properly.
   void ensureEngine().catch(() => undefined);
 
-  if ('serviceWorker' in navigator && location.protocol === 'https:') {
-    window.addEventListener('load', () => {
-      void navigator.serviceWorker.register('/sw.js').catch(() => undefined);
-    });
-  }
+  // The service worker is generated and registered by vite-plugin-pwa
+  // (registerType: 'autoUpdate'); no manual registration is needed here.
 }
 
 init();

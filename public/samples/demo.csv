@@ -1,0 +1,561 @@
+order_id,order_date,customer_name,region,channel,category,product,quantity,unit_price,discount_pct,revenue,payment_method,status
+GW-100000,2025-08-01,Isla Silva,Latin America,retail,Outdoors,Camping Tent,1,34.03,0,34.03,paypal,pending
+GW-100001,2025-09-17,Leo Kato,Europe,web,Office,Monitor Arm,5,231.08,0,1155.40,bank_transfer,completed
+GW-100002,2025-10-07,Ingrid Tanaka,North America,mobile app,Outdoors,Trail Backpack,2,257.42,15,437.61,paypal,completed
+GW-100003,2025-01-02,Kai Bauer,Latin America,marketplace,Office,Monitor Arm,2,419.60,0,839.20,bank_transfer,completed
+GW-100004,2025-11-05,Ethan Reed,Asia Pacific,web,Electronics,Portable SSD,2,169.47,10,305.05,apple_pay,completed
+GW-100005,2025-10-22,Nora Ivanov,North America,mobile app,Electronics,Portable SSD,5,127.18,15,540.52,credit_card,completed
+GW-100006,2025-01-27,Ava Park,Europe,marketplace,Office,Desk Lamp,2,183.91,10,331.04,paypal,completed
+GW-100007,2025-10-04,Sofia Tanaka,North America,marketplace,Outdoors,Trekking Poles,4,248.26,0,993.04,credit_card,completed
+GW-100008,2025-05-01,Isla Nolan,Middle East,retail,Outdoors,Trail Backpack,5,296.60,10,1334.70,credit_card,completed
+GW-100009,2025-10-31,Leo Singh,Latin America,marketplace,Office,Ergonomic Chair,1,233.97,0,233.97,bank_transfer,completed
+GW-100010,2025-09-16,Isla Cole,North America,marketplace,Home & Kitchen,Blender,1,474.83,20,379.86,apple_pay,refunded
+GW-100011,2025-07-11,Aiden Meyer,Europe,web,Electronics,4K Monitor,5,320.85,0,1604.25,apple_pay,completed
+GW-100012,2025-09-16,Yuki Nolan,North America,marketplace,Office,Noise-Cancelling Headset,2,384.26,20,614.82,credit_card,completed
+GW-100013,2025-03-30,Emma Singh,Europe,retail,Home & Kitchen,Espresso Machine,1,177.62,0,177.62,bank_transfer,completed
+GW-100014,2025-11-15,Liam Haddad,North America,retail,Home & Kitchen,Air Fryer,3,219.07,10,591.49,apple_pay,refunded
+GW-100015,2025-05-30,Mia Ivanov,Latin America,retail,Home & Kitchen,Espresso Machine,1,446.34,5,424.02,apple_pay,pending
+GW-100016,2025-10-28,Priya Moreau,North America,mobile app,Home & Kitchen,Espresso Machine,3,342.33,10,924.29,bank_transfer,refunded
+GW-100017,2025-08-31,Ava Tanaka,Asia Pacific,mobile app,Electronics,4K Monitor,1,101.00,10,90.90,credit_card,completed
+GW-100018,2025-09-08,Noah Vance,North America,web,Office,Noise-Cancelling Headset,2,196.42,10,353.56,paypal,refunded
+GW-100019,2025-10-29,Leo Okafor,North America,web,Electronics,Mechanical Keyboard,3,97.43,15,248.45,apple_pay,completed
+GW-100020,2025-02-04,Ethan Okafor,Latin America,web,Outdoors,Headlamp,3,440.74,0,1322.22,apple_pay,completed
+GW-100021,2025-12-22,Isla Haddad,Europe,marketplace,Outdoors,Headlamp,1,42.41,5,40.29,paypal,completed
+GW-100022,2025-03-13,Nora Vance,Europe,marketplace,Home & Kitchen,Air Fryer,3,233.44,0,700.32,apple_pay,refunded
+GW-100023,2025-10-28,Liam Moreau,Middle East,marketplace,Outdoors,Insulated Bottle,1,453.37,10,408.03,bank_transfer,completed
+GW-100024,2025-08-30,Sofia Silva,Middle East,marketplace,Electronics,USB-C Hub,5,29.35,0,146.75,apple_pay,completed
+GW-100025,2025-12-05,Ethan Costa,Asia Pacific,marketplace,Outdoors,Insulated Bottle,1,318.89,10,287.00,apple_pay,refunded
+GW-100026,2025-09-22,Hugo Novak,North America,retail,Electronics,Portable SSD,1,429.06,0,429.06,paypal,completed
+GW-100027,2025-04-20,Isla Silva,Europe,mobile app,Home & Kitchen,Cast Iron Skillet,2,37.51,0,75.02,paypal,refunded
+GW-100028,2025-10-07,Hugo Vance,Europe,mobile app,Electronics,Portable SSD,1,133.00,20,106.40,paypal,completed
+GW-100029,2025-11-12,Nora Kato,Asia Pacific,retail,Electronics,Webcam,1,385.97,10,347.37,credit_card,pending
+GW-100030,2025-02-11,Emma Tanaka,Middle East,web,Office,Ergonomic Chair,4,304.70,0,1218.80,paypal,completed
+GW-100031,2025-02-16,Hugo Tanaka,North America,marketplace,Home & Kitchen,Espresso Machine,4,173.61,10,625.00,bank_transfer,pending
+GW-100032,2025-08-20,Hugo Novak,Asia Pacific,retail,Electronics,Wireless Earbuds,2,167.83,0,335.66,credit_card,refunded
+GW-100033,2025-06-21,Yuki Moreau,Latin America,retail,Electronics,Mechanical Keyboard,5,393.39,0,1966.95,bank_transfer,completed
+GW-100034,2025-06-16,Sofia Reed,Latin America,marketplace,Home & Kitchen,Robot Vacuum,4,434.37,0,1737.48,paypal,completed
+GW-100035,2025-11-15,Ethan Cole,Middle East,retail,Office,Noise-Cancelling Headset,1,188.99,0,188.99,bank_transfer,pending
+GW-100036,2025-12-18,Leo Diaz,Europe,mobile app,Electronics,USB-C Hub,4,497.77,0,1991.08,credit_card,pending
+GW-100037,2025-10-19,Mia Novak,Middle East,marketplace,Home & Kitchen,Cast Iron Skillet,1,91.75,20,73.40,paypal,completed
+GW-100038,2025-04-15,Hugo Silva,Latin America,marketplace,Home & Kitchen,Cast Iron Skillet,5,184.60,0,923.00,paypal,completed
+GW-100039,2025-06-19,Sofia Park,North America,mobile app,Home & Kitchen,Air Fryer,1,103.64,15,88.09,credit_card,completed
+GW-100040,2025-12-08,Sofia Tanaka,Asia Pacific,retail,Office,Ergonomic Chair,5,415.36,15,1765.28,apple_pay,refunded
+GW-100041,2025-07-13,Yuki Lindqvist,Middle East,retail,Home & Kitchen,Espresso Machine,2,89.19,20,142.70,bank_transfer,completed
+GW-100042,2025-07-18,Ava Singh,North America,marketplace,Office,Noise-Cancelling Headset,4,28.75,0,115.00,credit_card,pending
+GW-100043,2025-10-03,Lucas Silva,Middle East,marketplace,Home & Kitchen,Blender,1,432.32,15,367.47,bank_transfer,pending
+GW-100044,2025-07-12,Aiden Bauer,Latin America,marketplace,Office,Monitor Arm,4,398.38,20,1274.82,bank_transfer,completed
+GW-100045,2025-08-21,Lucas Novak,Asia Pacific,retail,Electronics,Mechanical Keyboard,5,169.89,10,764.50,credit_card,completed
+GW-100046,2025-11-07,Sofia Novak,Latin America,web,Home & Kitchen,Air Fryer,3,393.71,0,1181.13,paypal,completed
+GW-100047,2025-02-23,Priya Ivanov,Latin America,retail,Outdoors,Headlamp,1,83.43,10,75.09,bank_transfer,refunded
+GW-100048,2025-07-22,Isla Bauer,Asia Pacific,retail,Home & Kitchen,Robot Vacuum,4,223.34,0,893.36,paypal,refunded
+GW-100049,2025-06-24,Ethan Ross,Asia Pacific,web,Home & Kitchen,Espresso Machine,1,360.98,20,288.78,paypal,pending
+GW-100050,2025-01-02,Omar Bauer,Europe,mobile app,Office,Ergonomic Chair,3,453.27,0,1359.81,apple_pay,refunded
+GW-100051,2025-08-05,Zoe Meyer,North America,web,Office,Standing Desk,4,237.54,15,807.64,apple_pay,completed
+GW-100052,2025-05-14,Noah Meyer,Asia Pacific,retail,Home & Kitchen,Air Fryer,3,18.69,10,50.46,bank_transfer,completed
+GW-100053,2025-10-30,Olivia Tanaka,Middle East,mobile app,Home & Kitchen,Robot Vacuum,5,47.62,0,238.10,apple_pay,completed
+GW-100054,2025-01-21,Nora Reed,North America,marketplace,Home & Kitchen,Espresso Machine,3,496.23,15,1265.39,paypal,pending
+GW-100055,2025-10-20,Aiden Nolan,Latin America,mobile app,Electronics,Portable SSD,1,72.13,0,72.13,apple_pay,completed
+GW-100056,2025-03-27,Priya Diaz,Asia Pacific,retail,Office,Monitor Arm,1,359.08,0,359.08,paypal,completed
+GW-100057,2025-09-17,Aiden Silva,Latin America,mobile app,Outdoors,Camping Tent,5,235.88,0,1179.40,paypal,completed
+GW-100058,2025-11-29,Ingrid Diaz,Middle East,mobile app,Office,Standing Desk,2,482.94,0,965.88,paypal,completed
+GW-100059,2025-10-09,Aiden Ivanov,Latin America,web,Office,Monitor Arm,1,45.48,0,45.48,paypal,completed
+GW-100060,2025-07-28,Omar Diaz,Middle East,web,Electronics,Wireless Earbuds,3,194.02,10,523.85,credit_card,completed
+GW-100061,2025-01-02,Ethan Kato,Latin America,mobile app,Office,Desk Lamp,4,168.71,0,674.84,bank_transfer,completed
+GW-100062,2025-05-29,Lucas Reed,North America,mobile app,Office,Standing Desk,1,57.08,20,45.66,bank_transfer,refunded
+GW-100063,2025-05-25,Leo Tanaka,North America,retail,Office,Standing Desk,5,37.56,10,169.02,bank_transfer,pending
+GW-100064,2025-04-19,Omar Lindqvist,Asia Pacific,retail,Office,Noise-Cancelling Headset,3,290.17,0,870.51,apple_pay,refunded
+GW-100065,2025-10-24,Ethan Park,Middle East,mobile app,Electronics,4K Monitor,3,431.47,10,1164.97,apple_pay,completed
+GW-100066,2025-01-06,Sofia Tanaka,North America,retail,Electronics,4K Monitor,4,219.72,0,878.88,paypal,pending
+GW-100067,2025-01-10,Zoe Cole,Europe,retail,Office,Desk Lamp,5,251.93,0,1259.65,paypal,refunded
+GW-100068,2025-10-14,Ingrid Ivanov,Middle East,retail,Electronics,Webcam,2,473.71,20,757.94,paypal,completed
+GW-100069,2025-01-08,Omar Ivanov,Middle East,web,Home & Kitchen,Espresso Machine,3,443.51,20,1064.42,bank_transfer,pending
+GW-100070,2025-07-22,Kai Vance,Middle East,retail,Office,Desk Lamp,5,416.05,10,1872.23,bank_transfer,refunded
+GW-100071,2025-01-25,Priya Meyer,North America,mobile app,Office,Noise-Cancelling Headset,4,218.33,0,873.32,paypal,pending
+GW-100072,2025-08-19,Emma Lindqvist,Europe,web,Home & Kitchen,Air Fryer,2,201.64,0,403.28,credit_card,completed
+GW-100073,2025-07-22,Yuki Reed,North America,web,Electronics,USB-C Hub,2,219.51,0,439.02,paypal,pending
+GW-100074,2025-06-27,Lucas Park,North America,web,Electronics,Wireless Earbuds,3,88.27,20,211.85,credit_card,refunded
+GW-100075,2025-01-28,Ethan Ross,Europe,mobile app,Electronics,USB-C Hub,4,119.62,0,478.48,bank_transfer,completed
+GW-100076,2025-02-23,Sofia Reed,Latin America,web,Office,Monitor Arm,2,375.72,0,751.44,bank_transfer,pending
+GW-100077,2025-02-05,Isla Cole,Asia Pacific,retail,Electronics,Wireless Earbuds,4,455.85,20,1458.72,paypal,completed
+GW-100078,2025-03-22,Olivia Vance,North America,retail,Home & Kitchen,Espresso Machine,4,187.39,20,599.65,credit_card,pending
+GW-100079,2025-07-27,Hugo Nolan,Europe,retail,Electronics,Portable SSD,4,147.53,0,590.12,apple_pay,completed
+GW-100080,2025-01-26,Ingrid Lindqvist,North America,web,Outdoors,Trail Backpack,1,224.43,0,224.43,paypal,completed
+GW-100081,2025-10-16,Sofia Bauer,Europe,marketplace,Home & Kitchen,Cast Iron Skillet,3,270.13,0,810.39,credit_card,completed
+GW-100082,2025-12-28,Nora Nolan,Asia Pacific,marketplace,Electronics,Wireless Earbuds,4,108.46,0,433.84,apple_pay,completed
+GW-100083,2025-12-10,Olivia Kato,Latin America,retail,Outdoors,Trekking Poles,5,10.84,0,54.20,credit_card,refunded
+GW-100084,2025-02-01,Lucas Park,Middle East,web,Outdoors,Trekking Poles,3,353.67,15,901.86,apple_pay,completed
+GW-100085,2025-06-19,Noah Meyer,North America,mobile app,Electronics,4K Monitor,3,68.10,15,173.65,bank_transfer,completed
+GW-100086,2025-12-28,Aiden Okafor,Middle East,retail,Outdoors,Headlamp,2,183.47,0,366.94,credit_card,refunded
+GW-100087,2025-02-27,Nora Ivanov,Asia Pacific,mobile app,Office,Standing Desk,4,234.84,0,939.36,paypal,completed
+GW-100088,2025-10-04,Sofia Okafor,Asia Pacific,retail,Electronics,Portable SSD,3,227.17,0,681.51,bank_transfer,completed
+GW-100089,2025-08-18,Priya Park,Asia Pacific,marketplace,Outdoors,Trail Backpack,2,182.34,15,309.98,credit_card,refunded
+GW-100090,2025-10-14,Isla Lindqvist,Asia Pacific,marketplace,Home & Kitchen,Espresso Machine,2,445.20,0,890.40,bank_transfer,refunded
+GW-100091,2025-07-21,Liam Kato,Latin America,web,Electronics,Webcam,1,238.09,10,214.28,credit_card,refunded
+GW-100092,2025-02-14,Olivia Meyer,Asia Pacific,web,Office,Desk Lamp,4,146.15,15,496.91,paypal,completed
+GW-100093,2025-07-11,Priya Diaz,Middle East,web,Electronics,Webcam,1,184.35,0,184.35,paypal,refunded
+GW-100094,2025-09-06,Liam Lindqvist,Middle East,retail,Electronics,Mechanical Keyboard,4,498.24,10,1793.66,bank_transfer,refunded
+GW-100095,2025-03-19,Liam Singh,Europe,web,Electronics,USB-C Hub,2,37.06,10,66.71,paypal,completed
+GW-100096,2025-12-17,Olivia Vance,Asia Pacific,marketplace,Home & Kitchen,Air Fryer,5,410.40,20,1641.60,bank_transfer,completed
+GW-100097,2025-09-27,Ava Ross,Middle East,retail,Outdoors,Trail Backpack,3,107.63,10,290.60,credit_card,pending
+GW-100098,2025-08-06,Yuki Novak,Latin America,retail,Electronics,Webcam,2,102.01,10,183.62,bank_transfer,completed
+GW-100099,2025-01-07,Sofia Singh,Asia Pacific,mobile app,Outdoors,Camping Tent,4,90.85,0,363.40,bank_transfer,refunded
+GW-100100,2025-11-08,Ethan Costa,Europe,web,Electronics,4K Monitor,3,190.80,0,572.40,paypal,completed
+GW-100101,2025-12-21,Yuki Singh,Latin America,marketplace,Electronics,USB-C Hub,1,319.10,15,271.24,credit_card,pending
+GW-100102,2025-04-08,Olivia Reed,Latin America,web,Office,Ergonomic Chair,2,64.92,0,129.84,credit_card,completed
+GW-100103,2025-08-05,Leo Tanaka,Middle East,marketplace,Electronics,Wireless Earbuds,1,207.47,20,165.98,apple_pay,completed
+GW-100104,2025-04-29,Sofia Reed,Asia Pacific,web,Outdoors,Trekking Poles,2,483.97,20,774.35,bank_transfer,pending
+GW-100105,2025-10-04,Emma Park,Asia Pacific,mobile app,Outdoors,Trekking Poles,2,438.73,5,833.59,bank_transfer,pending
+GW-100106,2025-04-12,Noah Haddad,Europe,mobile app,Electronics,Wireless Earbuds,2,427.05,20,683.28,paypal,completed
+GW-100107,2025-05-05,Noah Okafor,Asia Pacific,marketplace,Electronics,Mechanical Keyboard,4,352.47,0,1409.88,apple_pay,completed
+GW-100108,2025-10-01,Emma Ross,Europe,marketplace,Electronics,Wireless Earbuds,1,76.55,0,76.55,bank_transfer,refunded
+GW-100109,2025-06-22,Omar Moreau,North America,web,Electronics,Portable SSD,4,98.18,10,353.45,paypal,completed
+GW-100110,2025-09-12,Mia Vance,North America,mobile app,Outdoors,Camping Tent,2,181.74,0,363.48,bank_transfer,pending
+GW-100111,2025-05-04,Yuki Novak,Asia Pacific,web,Outdoors,Trekking Poles,4,442.36,10,1592.50,bank_transfer,pending
+GW-100112,2025-08-03,Leo Vance,North America,retail,Electronics,USB-C Hub,5,197.51,0,987.55,paypal,completed
+GW-100113,2025-01-03,Sofia Okafor,Europe,web,Outdoors,Trekking Poles,5,274.20,15,1165.35,apple_pay,completed
+GW-100114,2025-06-28,Aiden Singh,Asia Pacific,web,Home & Kitchen,Air Fryer,2,317.66,0,635.32,apple_pay,pending
+GW-100115,2025-07-15,Priya Diaz,Latin America,mobile app,Home & Kitchen,Air Fryer,4,111.09,5,422.14,apple_pay,pending
+GW-100116,2025-06-28,Leo Diaz,Europe,marketplace,Office,Ergonomic Chair,3,306.34,0,919.02,bank_transfer,completed
+GW-100117,2025-01-12,Ingrid Moreau,Europe,marketplace,Outdoors,Headlamp,2,496.05,0,992.10,credit_card,refunded
+GW-100118,2025-03-21,Emma Okafor,North America,marketplace,Office,Noise-Cancelling Headset,2,446.36,15,758.81,credit_card,completed
+GW-100119,2025-10-08,Omar Diaz,Europe,marketplace,Outdoors,Trekking Poles,3,92.65,20,222.36,paypal,completed
+GW-100120,2025-07-23,Priya Reed,Europe,mobile app,Office,Monitor Arm,4,425.46,0,1701.84,paypal,completed
+GW-100121,2025-11-10,Olivia Tanaka,Latin America,retail,Office,Ergonomic Chair,5,320.99,0,1604.95,apple_pay,completed
+GW-100122,2025-03-29,Omar Park,Asia Pacific,mobile app,Electronics,Mechanical Keyboard,2,147.00,10,264.60,apple_pay,completed
+GW-100123,2025-10-14,Mia Vance,Asia Pacific,web,Office,Ergonomic Chair,3,315.58,20,757.39,credit_card,completed
+GW-100124,2025-12-25,Aiden Cole,Asia Pacific,web,Office,Ergonomic Chair,4,395.42,15,1344.43,bank_transfer,completed
+GW-100125,2025-01-24,Nora Diaz,Europe,retail,Electronics,Wireless Earbuds,4,155.39,5,590.48,paypal,completed
+GW-100126,2025-12-04,Lucas Meyer,Latin America,marketplace,Home & Kitchen,Robot Vacuum,2,354.56,10,638.21,credit_card,pending
+GW-100127,2025-04-17,Yuki Singh,Asia Pacific,mobile app,Electronics,4K Monitor,5,157.94,0,789.70,apple_pay,completed
+GW-100128,2025-10-20,Ethan Diaz,Asia Pacific,retail,Outdoors,Camping Tent,5,202.72,5,962.92,paypal,completed
+GW-100129,2025-10-30,Ethan Silva,Latin America,mobile app,Electronics,4K Monitor,1,465.91,10,419.32,credit_card,completed
+GW-100130,2025-04-25,Nora Ivanov,Asia Pacific,retail,Office,Standing Desk,2,320.28,5,608.53,credit_card,completed
+GW-100131,2025-01-19,Priya Singh,North America,mobile app,Electronics,4K Monitor,1,291.93,0,291.93,apple_pay,pending
+GW-100132,2025-05-23,Leo Diaz,Asia Pacific,marketplace,Office,Noise-Cancelling Headset,2,88.15,20,141.04,credit_card,completed
+GW-100133,2025-06-25,Leo Vance,Middle East,mobile app,Office,Standing Desk,2,94.22,15,160.17,bank_transfer,refunded
+GW-100134,2025-04-09,Ethan Meyer,Middle East,marketplace,Office,Noise-Cancelling Headset,2,456.68,10,822.02,apple_pay,completed
+GW-100135,2025-06-15,Olivia Moreau,Asia Pacific,web,Home & Kitchen,Robot Vacuum,2,286.92,10,516.46,paypal,pending
+GW-100136,2025-09-24,Omar Vance,Europe,marketplace,Outdoors,Trail Backpack,1,127.04,0,127.04,paypal,completed
+GW-100137,2025-09-25,Ava Moreau,Europe,web,Outdoors,Trekking Poles,3,320.61,20,769.46,credit_card,completed
+GW-100138,2025-05-07,Priya Bauer,Asia Pacific,marketplace,Home & Kitchen,Air Fryer,2,430.85,0,861.70,credit_card,pending
+GW-100139,2025-07-12,Ethan Kato,Europe,mobile app,Home & Kitchen,Espresso Machine,3,80.64,0,241.92,credit_card,completed
+GW-100140,2025-01-19,Emma Silva,Europe,retail,Office,Noise-Cancelling Headset,2,430.80,15,732.36,apple_pay,completed
+GW-100141,2025-12-03,Yuki Bauer,North America,web,Home & Kitchen,Espresso Machine,4,180.90,0,723.60,bank_transfer,completed
+GW-100142,2025-10-11,Sofia Singh,North America,retail,Outdoors,Insulated Bottle,3,183.13,5,521.92,bank_transfer,completed
+GW-100143,2025-07-15,Nora Park,Europe,marketplace,Electronics,Mechanical Keyboard,4,35.84,10,129.02,paypal,completed
+GW-100144,2025-12-25,Noah Park,Latin America,mobile app,Office,Ergonomic Chair,5,83.37,15,354.32,paypal,pending
+GW-100145,2025-12-08,Kai Cole,Europe,retail,Outdoors,Camping Tent,1,96.14,5,91.33,bank_transfer,completed
+GW-100146,2025-05-02,Ava Cole,North America,mobile app,Electronics,USB-C Hub,5,387.20,0,1936.00,apple_pay,completed
+GW-100147,2025-05-10,Aiden Haddad,Latin America,web,Office,Desk Lamp,2,23.40,0,46.80,bank_transfer,pending
+GW-100148,2025-02-15,Hugo Costa,Europe,retail,Home & Kitchen,Blender,2,390.58,20,624.93,paypal,completed
+GW-100149,2025-06-13,Nora Lindqvist,Asia Pacific,web,Home & Kitchen,Cast Iron Skillet,4,280.87,0,1123.48,credit_card,pending
+GW-100150,2025-04-07,Liam Okafor,Latin America,marketplace,Office,Ergonomic Chair,4,366.17,5,1391.45,credit_card,completed
+GW-100151,2025-06-06,Noah Singh,Europe,marketplace,Office,Standing Desk,4,305.15,0,1220.60,apple_pay,completed
+GW-100152,2025-01-10,Kai Cole,Asia Pacific,mobile app,Electronics,Portable SSD,4,118.31,10,425.92,bank_transfer,completed
+GW-100153,2025-09-18,Yuki Cole,Asia Pacific,marketplace,Electronics,Portable SSD,1,17.00,10,15.30,paypal,completed
+GW-100154,2025-02-19,Kai Costa,Asia Pacific,web,Electronics,4K Monitor,5,30.69,15,130.43,paypal,pending
+GW-100155,2025-03-08,Isla Park,Middle East,retail,Office,Noise-Cancelling Headset,2,230.50,0,461.00,apple_pay,completed
+GW-100156,2025-04-12,Ingrid Singh,North America,retail,Electronics,Portable SSD,2,403.19,15,685.42,credit_card,pending
+GW-100157,2025-04-30,Sofia Silva,Asia Pacific,marketplace,Electronics,Mechanical Keyboard,3,246.86,0,740.58,paypal,pending
+GW-100158,2025-05-21,Kai Lindqvist,Middle East,retail,Electronics,USB-C Hub,2,81.73,0,163.46,paypal,completed
+GW-100159,2025-09-20,Noah Nolan,Middle East,mobile app,Electronics,Mechanical Keyboard,1,276.02,0,276.02,paypal,completed
+GW-100160,2025-07-02,Liam Silva,Asia Pacific,mobile app,Home & Kitchen,Air Fryer,1,443.83,10,399.45,paypal,pending
+GW-100161,2025-05-23,Lucas Bauer,Latin America,retail,Home & Kitchen,Robot Vacuum,1,204.04,20,163.23,apple_pay,refunded
+GW-100162,2025-07-31,Liam Bauer,Latin America,retail,Office,Noise-Cancelling Headset,4,118.92,0,475.68,credit_card,pending
+GW-100163,2025-03-18,Ingrid Lindqvist,Europe,web,Office,Noise-Cancelling Headset,5,463.88,20,1855.52,bank_transfer,completed
+GW-100164,2025-09-13,Priya Nolan,Europe,web,Home & Kitchen,Robot Vacuum,4,238.57,5,906.57,bank_transfer,pending
+GW-100165,2025-09-01,Omar Cole,Europe,marketplace,Office,Noise-Cancelling Headset,4,341.24,0,1364.96,apple_pay,refunded
+GW-100166,2025-12-23,Hugo Bauer,North America,retail,Office,Monitor Arm,4,421.77,5,1602.73,paypal,completed
+GW-100167,2025-04-04,Omar Diaz,North America,retail,Home & Kitchen,Blender,4,55.47,10,199.69,apple_pay,completed
+GW-100168,2025-11-13,Ava Diaz,North America,retail,Office,Desk Lamp,1,63.00,0,63.00,bank_transfer,completed
+GW-100169,2025-01-11,Sofia Costa,Europe,mobile app,Electronics,Webcam,3,288.15,5,821.23,bank_transfer,completed
+GW-100170,2025-03-13,Isla Meyer,Latin America,web,Outdoors,Trail Backpack,2,161.41,5,306.68,credit_card,completed
+GW-100171,2025-02-07,Leo Costa,Latin America,marketplace,Electronics,USB-C Hub,2,135.53,0,271.06,bank_transfer,completed
+GW-100172,2025-02-19,Hugo Vance,Europe,retail,Electronics,USB-C Hub,1,448.57,10,403.71,apple_pay,pending
+GW-100173,2025-02-26,Liam Kato,North America,retail,Home & Kitchen,Air Fryer,4,375.89,15,1278.03,bank_transfer,completed
+GW-100174,2025-08-14,Olivia Tanaka,Middle East,retail,Outdoors,Trekking Poles,1,22.70,0,22.70,paypal,completed
+GW-100175,2025-06-05,Kai Vance,Middle East,retail,Office,Noise-Cancelling Headset,5,368.66,0,1843.30,bank_transfer,refunded
+GW-100176,2025-06-27,Hugo Silva,Latin America,marketplace,Home & Kitchen,Air Fryer,1,142.26,15,120.92,credit_card,completed
+GW-100177,2025-04-27,Priya Silva,Latin America,mobile app,Home & Kitchen,Cast Iron Skillet,1,144.83,0,144.83,bank_transfer,pending
+GW-100178,2025-03-27,Nora Ivanov,Middle East,mobile app,Office,Monitor Arm,2,230.72,0,461.44,apple_pay,completed
+GW-100179,2025-08-07,Mia Okafor,Latin America,mobile app,Home & Kitchen,Espresso Machine,2,238.17,0,476.34,credit_card,completed
+GW-100180,2025-05-02,Lucas Okafor,Latin America,web,Electronics,Portable SSD,5,105.31,20,421.24,paypal,refunded
+GW-100181,2025-10-05,Emma Meyer,Latin America,retail,Office,Monitor Arm,3,496.13,0,1488.39,bank_transfer,completed
+GW-100182,2025-12-29,Ingrid Haddad,Latin America,mobile app,Electronics,Mechanical Keyboard,4,224.12,0,896.48,credit_card,refunded
+GW-100183,2025-10-27,Kai Lindqvist,Latin America,retail,Office,Standing Desk,1,418.01,15,355.31,paypal,pending
+GW-100184,2025-03-10,Ethan Novak,Latin America,mobile app,Electronics,Mechanical Keyboard,5,450.25,20,1801.00,credit_card,completed
+GW-100185,2025-04-27,Isla Costa,Latin America,retail,Home & Kitchen,Cast Iron Skillet,3,48.57,0,145.71,apple_pay,completed
+GW-100186,2025-04-08,Olivia Singh,Latin America,marketplace,Electronics,Wireless Earbuds,1,270.85,20,216.68,apple_pay,pending
+GW-100187,2025-06-20,Mia Reed,North America,marketplace,Home & Kitchen,Cast Iron Skillet,1,114.80,0,114.80,bank_transfer,completed
+GW-100188,2025-08-27,Nora Reed,Middle East,mobile app,Outdoors,Camping Tent,3,331.89,0,995.67,paypal,completed
+GW-100189,2025-01-03,Omar Costa,Asia Pacific,marketplace,Office,Ergonomic Chair,5,489.35,0,2446.75,apple_pay,completed
+GW-100190,2025-05-08,Sofia Silva,Latin America,mobile app,Home & Kitchen,Robot Vacuum,4,311.29,0,1245.16,bank_transfer,pending
+GW-100191,2025-04-15,Kai Meyer,Asia Pacific,marketplace,Outdoors,Trail Backpack,3,454.54,0,1363.62,credit_card,completed
+GW-100192,2025-05-18,Ethan Cole,North America,mobile app,Home & Kitchen,Robot Vacuum,1,468.11,0,468.11,apple_pay,completed
+GW-100193,2025-07-14,Kai Reed,Europe,retail,Outdoors,Insulated Bottle,5,230.32,5,1094.02,credit_card,completed
+GW-100194,2025-12-11,Liam Costa,Latin America,retail,Office,Standing Desk,2,490.96,5,932.82,credit_card,pending
+GW-100195,2025-11-03,Aiden Ross,Asia Pacific,marketplace,Home & Kitchen,Cast Iron Skillet,3,15.38,10,41.53,credit_card,completed
+GW-100196,2025-09-09,Isla Silva,Middle East,marketplace,Electronics,Webcam,5,67.25,0,336.25,bank_transfer,refunded
+GW-100197,2025-06-07,Liam Ross,Europe,mobile app,Office,Ergonomic Chair,1,453.41,20,362.73,paypal,completed
+GW-100198,2025-02-23,Zoe Park,Europe,retail,Electronics,Webcam,4,325.64,15,1107.18,bank_transfer,completed
+GW-100199,2025-03-20,Hugo Silva,North America,marketplace,Office,Desk Lamp,1,271.72,0,271.72,apple_pay,completed
+GW-100200,2025-06-01,Aiden Meyer,Middle East,marketplace,Outdoors,Insulated Bottle,3,159.53,20,382.87,credit_card,refunded
+GW-100201,2025-06-17,Emma Ivanov,Middle East,retail,Electronics,Mechanical Keyboard,1,106.67,10,96.00,paypal,completed
+GW-100202,2025-04-22,Ethan Reed,North America,retail,Home & Kitchen,Espresso Machine,4,323.57,10,1164.85,credit_card,completed
+GW-100203,2025-04-23,Sofia Cole,Latin America,marketplace,Electronics,Webcam,3,367.15,15,936.23,credit_card,pending
+GW-100204,2025-10-07,Priya Nolan,Middle East,marketplace,Home & Kitchen,Robot Vacuum,5,162.11,10,729.50,credit_card,completed
+GW-100205,2025-08-01,Priya Diaz,Latin America,web,Outdoors,Headlamp,4,151.24,0,604.96,paypal,completed
+GW-100206,2025-05-13,Mia Ross,Europe,marketplace,Office,Desk Lamp,4,54.00,0,216.00,apple_pay,completed
+GW-100207,2025-11-10,Sofia Okafor,North America,retail,Office,Desk Lamp,3,391.07,5,1114.55,apple_pay,completed
+GW-100208,2025-08-02,Liam Silva,Asia Pacific,retail,Office,Ergonomic Chair,3,483.46,0,1450.38,paypal,completed
+GW-100209,2025-09-21,Liam Okafor,Latin America,marketplace,Home & Kitchen,Espresso Machine,2,27.69,0,55.38,credit_card,completed
+GW-100210,2025-01-28,Noah Nolan,Europe,retail,Electronics,Wireless Earbuds,2,198.01,0,396.02,credit_card,completed
+GW-100211,2025-07-26,Lucas Tanaka,Asia Pacific,mobile app,Electronics,Wireless Earbuds,1,430.34,5,408.82,bank_transfer,completed
+GW-100212,2025-07-30,Ingrid Ivanov,Latin America,web,Office,Ergonomic Chair,2,488.21,20,781.14,credit_card,refunded
+GW-100213,2025-05-21,Leo Costa,Latin America,retail,Outdoors,Camping Tent,4,174.38,10,627.77,credit_card,refunded
+GW-100214,2025-01-19,Aiden Novak,Asia Pacific,marketplace,Home & Kitchen,Air Fryer,4,95.65,0,382.60,credit_card,refunded
+GW-100215,2025-06-24,Emma Moreau,Asia Pacific,web,Electronics,Mechanical Keyboard,3,148.45,5,423.08,apple_pay,completed
+GW-100216,2025-01-26,Mia Ivanov,Latin America,web,Home & Kitchen,Air Fryer,4,423.28,5,1608.46,bank_transfer,completed
+GW-100217,2025-02-08,Ava Nolan,Europe,marketplace,Office,Desk Lamp,1,395.94,10,356.35,credit_card,completed
+GW-100218,2025-09-15,Nora Nolan,Latin America,marketplace,Office,Ergonomic Chair,4,467.90,0,1871.60,bank_transfer,completed
+GW-100219,2025-07-18,Olivia Tanaka,North America,web,Electronics,USB-C Hub,1,90.46,15,76.89,credit_card,completed
+GW-100220,2025-01-15,Zoe Haddad,Latin America,retail,Electronics,Mechanical Keyboard,3,184.59,0,553.77,paypal,pending
+GW-100221,2025-07-21,Nora Ivanov,Latin America,web,Home & Kitchen,Robot Vacuum,1,110.46,0,110.46,credit_card,completed
+GW-100222,2025-02-10,Mia Okafor,Europe,web,Home & Kitchen,Blender,3,297.84,0,893.52,apple_pay,completed
+GW-100223,2025-01-09,Isla Moreau,Asia Pacific,retail,Outdoors,Trekking Poles,1,338.01,20,270.41,apple_pay,pending
+GW-100224,2025-08-15,Lucas Moreau,North America,web,Electronics,4K Monitor,5,199.99,15,849.96,apple_pay,refunded
+GW-100225,2025-01-05,Olivia Haddad,Asia Pacific,web,Electronics,Portable SSD,1,157.21,0,157.21,bank_transfer,completed
+GW-100226,2025-09-23,Hugo Lindqvist,Middle East,retail,Home & Kitchen,Air Fryer,3,274.32,20,658.37,bank_transfer,completed
+GW-100227,2025-12-26,Liam Cole,Asia Pacific,marketplace,Office,Standing Desk,1,130.14,10,117.13,paypal,completed
+GW-100228,2025-02-20,Hugo Singh,Latin America,retail,Office,Desk Lamp,4,389.76,15,1325.18,apple_pay,completed
+GW-100229,2025-03-23,Isla Lindqvist,Middle East,marketplace,Outdoors,Trail Backpack,2,341.15,0,682.30,credit_card,completed
+GW-100230,2025-03-05,Aiden Moreau,Latin America,marketplace,Home & Kitchen,Air Fryer,1,246.28,20,197.02,bank_transfer,completed
+GW-100231,2025-06-11,Ava Meyer,Asia Pacific,retail,Home & Kitchen,Cast Iron Skillet,4,225.49,5,856.86,paypal,completed
+GW-100232,2025-04-30,Hugo Vance,Middle East,mobile app,Home & Kitchen,Air Fryer,1,271.17,20,216.94,credit_card,completed
+GW-100233,2025-08-12,Noah Nolan,Asia Pacific,marketplace,Electronics,Wireless Earbuds,5,59.54,0,297.70,paypal,pending
+GW-100234,2025-11-27,Kai Park,Asia Pacific,retail,Electronics,Portable SSD,4,57.64,20,184.45,paypal,refunded
+GW-100235,2025-02-16,Priya Ivanov,North America,retail,Electronics,Webcam,4,46.10,0,184.40,apple_pay,refunded
+GW-100236,2025-12-05,Ava Diaz,Middle East,web,Home & Kitchen,Robot Vacuum,2,109.19,5,207.46,credit_card,refunded
+GW-100237,2025-01-05,Olivia Cole,Asia Pacific,marketplace,Electronics,USB-C Hub,4,367.87,5,1397.91,apple_pay,completed
+GW-100238,2025-01-09,Omar Singh,Europe,mobile app,Electronics,4K Monitor,1,316.49,20,253.19,paypal,pending
+GW-100239,2025-09-11,Ingrid Costa,North America,web,Home & Kitchen,Air Fryer,3,112.20,10,302.94,credit_card,refunded
+GW-100240,2025-05-25,Aiden Lindqvist,Europe,retail,Outdoors,Trail Backpack,5,79.14,10,356.13,bank_transfer,pending
+GW-100241,2025-03-26,Mia Vance,Asia Pacific,marketplace,Electronics,Portable SSD,1,170.54,20,136.43,credit_card,refunded
+GW-100242,2025-01-02,Aiden Ivanov,Middle East,mobile app,Outdoors,Trekking Poles,2,189.05,0,378.10,credit_card,refunded
+GW-100243,2025-01-12,Isla Haddad,Europe,retail,Outdoors,Trekking Poles,5,116.25,0,581.25,paypal,refunded
+GW-100244,2025-07-06,Lucas Singh,Middle East,retail,Electronics,Wireless Earbuds,2,107.29,0,214.58,credit_card,completed
+GW-100245,2025-08-28,Aiden Ross,Latin America,mobile app,Home & Kitchen,Air Fryer,4,418.56,0,1674.24,paypal,refunded
+GW-100246,2025-11-24,Yuki Silva,Latin America,retail,Electronics,Portable SSD,3,24.62,15,62.78,paypal,refunded
+GW-100247,2025-01-19,Yuki Moreau,North America,marketplace,Office,Desk Lamp,1,283.35,15,240.85,apple_pay,refunded
+GW-100248,2025-09-08,Isla Meyer,Latin America,web,Home & Kitchen,Robot Vacuum,4,97.89,20,313.25,bank_transfer,refunded
+GW-100249,2025-12-09,Yuki Okafor,Asia Pacific,mobile app,Home & Kitchen,Robot Vacuum,2,378.54,0,757.08,paypal,completed
+GW-100250,2025-05-23,Yuki Diaz,Middle East,mobile app,Electronics,USB-C Hub,2,469.30,10,844.74,credit_card,completed
+GW-100251,2025-06-08,Sofia Okafor,Middle East,marketplace,Home & Kitchen,Air Fryer,4,165.47,0,661.88,paypal,pending
+GW-100252,2025-12-20,Ava Reed,Europe,marketplace,Electronics,Mechanical Keyboard,5,241.71,0,1208.55,bank_transfer,pending
+GW-100253,2025-12-16,Ava Silva,Latin America,web,Electronics,Webcam,1,266.97,0,266.97,credit_card,completed
+GW-100254,2025-07-27,Sofia Costa,Europe,web,Home & Kitchen,Robot Vacuum,1,123.93,0,123.93,bank_transfer,pending
+GW-100255,2025-03-07,Lucas Novak,Middle East,web,Home & Kitchen,Robot Vacuum,3,16.23,0,48.69,bank_transfer,completed
+GW-100256,2025-03-14,Emma Singh,Middle East,retail,Electronics,USB-C Hub,3,352.28,10,951.16,credit_card,pending
+GW-100257,2025-11-25,Noah Ross,North America,mobile app,Outdoors,Camping Tent,1,131.84,15,112.06,credit_card,refunded
+GW-100258,2025-03-31,Lucas Cole,Europe,mobile app,Outdoors,Headlamp,2,280.91,0,561.82,credit_card,pending
+GW-100259,2025-07-30,Yuki Moreau,Latin America,web,Home & Kitchen,Robot Vacuum,4,76.29,0,305.16,paypal,pending
+GW-100260,2025-12-09,Nora Diaz,Asia Pacific,mobile app,Outdoors,Trail Backpack,2,398.62,0,797.24,apple_pay,completed
+GW-100261,2025-06-21,Nora Novak,Asia Pacific,mobile app,Electronics,USB-C Hub,2,254.25,15,432.22,credit_card,pending
+GW-100262,2025-05-19,Sofia Diaz,Middle East,web,Outdoors,Trail Backpack,2,95.22,20,152.35,paypal,completed
+GW-100263,2025-07-29,Ingrid Moreau,Europe,marketplace,Office,Standing Desk,5,289.54,0,1447.70,bank_transfer,completed
+GW-100264,2025-10-30,Olivia Diaz,Europe,retail,Electronics,Wireless Earbuds,4,479.96,0,1919.84,apple_pay,completed
+GW-100265,2025-12-17,Mia Ross,Latin America,marketplace,Home & Kitchen,Cast Iron Skillet,3,318.48,10,859.90,credit_card,pending
+GW-100266,2025-04-01,Olivia Costa,Asia Pacific,marketplace,Home & Kitchen,Robot Vacuum,5,408.91,0,2044.55,credit_card,completed
+GW-100267,2025-11-10,Mia Vance,Latin America,web,Outdoors,Insulated Bottle,3,372.13,0,1116.39,apple_pay,completed
+GW-100268,2025-02-13,Ethan Singh,Middle East,retail,Office,Standing Desk,3,490.68,20,1177.63,credit_card,completed
+GW-100269,2025-04-15,Olivia Cole,Middle East,mobile app,Home & Kitchen,Blender,1,90.53,20,72.42,credit_card,pending
+GW-100270,2025-12-17,Hugo Novak,Latin America,web,Home & Kitchen,Blender,4,185.17,5,703.65,credit_card,refunded
+GW-100271,2025-06-26,Emma Tanaka,Asia Pacific,retail,Office,Desk Lamp,2,139.68,5,265.39,apple_pay,completed
+GW-100272,2025-09-01,Olivia Diaz,Latin America,web,Electronics,4K Monitor,4,285.97,0,1143.88,apple_pay,completed
+GW-100273,2025-04-13,Olivia Diaz,Europe,mobile app,Outdoors,Trail Backpack,1,81.43,0,81.43,paypal,completed
+GW-100274,2025-02-21,Ava Bauer,Europe,marketplace,Home & Kitchen,Blender,2,479.83,0,959.66,credit_card,refunded
+GW-100275,2025-02-01,Priya Kato,North America,retail,Office,Noise-Cancelling Headset,3,326.59,10,881.79,paypal,completed
+GW-100276,2025-07-30,Emma Moreau,North America,marketplace,Electronics,Wireless Earbuds,2,446.63,5,848.60,apple_pay,pending
+GW-100277,2025-03-02,Nora Haddad,Latin America,marketplace,Outdoors,Insulated Bottle,4,30.13,0,120.52,paypal,pending
+GW-100278,2025-08-08,Nora Moreau,North America,mobile app,Electronics,4K Monitor,5,445.89,0,2229.45,apple_pay,completed
+GW-100279,2025-05-05,Lucas Okafor,Middle East,marketplace,Outdoors,Trail Backpack,2,468.29,10,842.92,bank_transfer,completed
+GW-100280,2025-06-07,Leo Haddad,Asia Pacific,mobile app,Home & Kitchen,Robot Vacuum,4,243.94,15,829.40,bank_transfer,completed
+GW-100281,2025-06-26,Yuki Okafor,North America,retail,Outdoors,Camping Tent,1,246.03,0,246.03,apple_pay,pending
+GW-100282,2025-07-11,Zoe Park,North America,marketplace,Office,Ergonomic Chair,5,121.53,10,546.88,apple_pay,completed
+GW-100283,2025-06-24,Ethan Ivanov,North America,marketplace,Office,Ergonomic Chair,3,285.33,0,855.99,credit_card,completed
+GW-100284,2025-09-29,Lucas Meyer,Middle East,retail,Electronics,4K Monitor,5,227.02,10,1021.59,credit_card,completed
+GW-100285,2025-11-05,Hugo Tanaka,Latin America,mobile app,Outdoors,Trekking Poles,1,478.73,15,406.92,credit_card,pending
+GW-100286,2025-11-24,Olivia Ivanov,Europe,marketplace,Electronics,Webcam,5,355.25,0,1776.25,apple_pay,refunded
+GW-100287,2025-07-27,Leo Costa,Asia Pacific,marketplace,Office,Standing Desk,3,206.23,0,618.69,bank_transfer,completed
+GW-100288,2025-03-17,Yuki Haddad,Asia Pacific,mobile app,Electronics,USB-C Hub,2,150.97,15,256.65,paypal,refunded
+GW-100289,2025-05-05,Omar Cole,Europe,retail,Home & Kitchen,Blender,2,266.67,10,480.01,paypal,completed
+GW-100290,2025-06-08,Omar Okafor,North America,marketplace,Electronics,4K Monitor,2,63.48,10,114.26,bank_transfer,completed
+GW-100291,2025-05-09,Omar Vance,Middle East,retail,Office,Desk Lamp,3,469.74,15,1197.84,bank_transfer,completed
+GW-100292,2025-07-10,Lucas Meyer,Latin America,marketplace,Office,Ergonomic Chair,4,204.94,15,696.80,credit_card,completed
+GW-100293,2025-06-10,Liam Ross,North America,marketplace,Office,Desk Lamp,1,435.25,0,435.25,paypal,pending
+GW-100294,2025-07-22,Noah Meyer,Asia Pacific,mobile app,Home & Kitchen,Blender,4,369.08,20,1181.06,apple_pay,pending
+GW-100295,2025-06-10,Nora Tanaka,Asia Pacific,retail,Office,Noise-Cancelling Headset,5,324.02,10,1458.09,apple_pay,pending
+GW-100296,2025-06-01,Zoe Novak,Asia Pacific,web,Office,Standing Desk,5,427.34,0,2136.70,bank_transfer,refunded
+GW-100297,2025-08-02,Leo Bauer,Europe,retail,Outdoors,Camping Tent,4,265.03,15,901.10,credit_card,refunded
+GW-100298,2025-09-10,Isla Costa,Middle East,marketplace,Home & Kitchen,Blender,5,20.57,0,102.85,apple_pay,refunded
+GW-100299,2025-07-02,Noah Meyer,Europe,marketplace,Office,Desk Lamp,3,460.58,0,1381.74,apple_pay,completed
+GW-100300,2025-06-08,Omar Kato,Latin America,mobile app,Electronics,Portable SSD,2,215.50,15,366.35,bank_transfer,completed
+GW-100301,2025-03-05,Liam Silva,Asia Pacific,mobile app,Home & Kitchen,Blender,2,492.15,0,984.30,bank_transfer,completed
+GW-100302,2025-10-09,Nora Diaz,North America,retail,Outdoors,Trail Backpack,1,201.94,10,181.75,paypal,completed
+GW-100303,2025-04-17,Ingrid Bauer,Middle East,mobile app,Office,Desk Lamp,3,352.67,5,1005.11,apple_pay,pending
+GW-100304,2025-02-23,Omar Nolan,Middle East,web,Outdoors,Camping Tent,5,213.20,0,1066.00,paypal,refunded
+GW-100305,2025-12-21,Ethan Moreau,Latin America,marketplace,Office,Noise-Cancelling Headset,5,107.90,0,539.50,apple_pay,completed
+GW-100306,2025-09-24,Lucas Bauer,Middle East,web,Outdoors,Trail Backpack,2,70.50,0,141.00,paypal,completed
+GW-100307,2025-07-21,Isla Reed,Asia Pacific,retail,Office,Ergonomic Chair,5,302.23,5,1435.59,apple_pay,completed
+GW-100308,2025-08-15,Emma Okafor,Latin America,web,Office,Noise-Cancelling Headset,3,171.01,20,410.42,bank_transfer,pending
+GW-100309,2025-03-25,Noah Singh,North America,mobile app,Electronics,4K Monitor,1,192.80,0,192.80,paypal,completed
+GW-100310,2025-03-07,Lucas Meyer,Latin America,marketplace,Home & Kitchen,Air Fryer,5,177.34,20,709.36,bank_transfer,completed
+GW-100311,2025-08-24,Omar Cole,Middle East,marketplace,Office,Monitor Arm,4,403.73,15,1372.68,paypal,refunded
+GW-100312,2025-02-03,Ingrid Ivanov,Middle East,marketplace,Outdoors,Headlamp,2,192.91,15,327.95,paypal,pending
+GW-100313,2025-10-31,Ethan Kato,Europe,mobile app,Office,Standing Desk,2,12.12,0,24.24,apple_pay,completed
+GW-100314,2025-06-24,Leo Nolan,Asia Pacific,mobile app,Electronics,Webcam,1,491.62,0,491.62,bank_transfer,completed
+GW-100315,2025-08-21,Ava Costa,Europe,web,Home & Kitchen,Robot Vacuum,4,448.23,0,1792.92,apple_pay,completed
+GW-100316,2025-06-19,Kai Moreau,Asia Pacific,marketplace,Electronics,Webcam,4,25.67,0,102.68,credit_card,completed
+GW-100317,2025-05-12,Nora Lindqvist,North America,retail,Office,Noise-Cancelling Headset,5,436.67,5,2074.18,credit_card,pending
+GW-100318,2025-08-25,Priya Vance,North America,web,Outdoors,Headlamp,3,21.35,20,51.24,bank_transfer,completed
+GW-100319,2025-02-12,Liam Vance,Latin America,web,Office,Monitor Arm,1,42.95,10,38.66,apple_pay,completed
+GW-100320,2025-08-08,Mia Nolan,Latin America,retail,Office,Ergonomic Chair,3,481.09,0,1443.27,paypal,refunded
+GW-100321,2025-04-18,Ethan Ivanov,Europe,retail,Electronics,Mechanical Keyboard,1,476.34,5,452.52,apple_pay,completed
+GW-100322,2025-04-15,Isla Reed,Middle East,web,Office,Monitor Arm,2,490.34,5,931.65,bank_transfer,completed
+GW-100323,2025-03-05,Sofia Okafor,Middle East,marketplace,Office,Monitor Arm,2,89.52,0,179.04,bank_transfer,completed
+GW-100324,2025-01-10,Emma Haddad,Latin America,retail,Electronics,USB-C Hub,2,29.78,15,50.63,paypal,completed
+GW-100325,2025-03-02,Yuki Cole,Latin America,marketplace,Electronics,Mechanical Keyboard,2,343.17,10,617.71,apple_pay,completed
+GW-100326,2025-07-06,Priya Diaz,North America,marketplace,Electronics,Portable SSD,5,140.94,0,704.70,credit_card,completed
+GW-100327,2025-05-23,Noah Ivanov,Asia Pacific,retail,Electronics,Webcam,2,357.06,5,678.41,credit_card,completed
+GW-100328,2025-03-31,Zoe Cole,Asia Pacific,retail,Office,Monitor Arm,5,311.82,0,1559.10,bank_transfer,completed
+GW-100329,2025-06-14,Yuki Moreau,Middle East,marketplace,Home & Kitchen,Blender,4,96.53,20,308.90,bank_transfer,refunded
+GW-100330,2025-01-13,Lucas Novak,Asia Pacific,web,Home & Kitchen,Blender,4,442.68,0,1770.72,apple_pay,completed
+GW-100331,2025-04-17,Ethan Okafor,Europe,mobile app,Office,Desk Lamp,1,467.16,0,467.16,credit_card,refunded
+GW-100332,2025-04-03,Ava Haddad,Middle East,retail,Outdoors,Insulated Bottle,3,454.24,20,1090.18,credit_card,pending
+GW-100333,2025-09-25,Leo Costa,Europe,web,Home & Kitchen,Espresso Machine,4,315.30,15,1072.02,apple_pay,refunded
+GW-100334,2025-04-28,Emma Park,North America,mobile app,Outdoors,Camping Tent,3,281.81,0,845.43,paypal,completed
+GW-100335,2025-11-16,Yuki Ross,North America,mobile app,Outdoors,Camping Tent,4,34.04,0,136.16,credit_card,completed
+GW-100336,2025-04-18,Mia Okafor,Middle East,marketplace,Home & Kitchen,Blender,5,463.11,0,2315.55,apple_pay,completed
+GW-100337,2025-10-21,Nora Lindqvist,North America,marketplace,Electronics,Portable SSD,1,65.56,15,55.73,apple_pay,completed
+GW-100338,2025-06-01,Mia Okafor,Middle East,retail,Home & Kitchen,Air Fryer,1,18.68,20,14.94,bank_transfer,pending
+GW-100339,2025-06-28,Mia Okafor,Middle East,web,Outdoors,Headlamp,4,484.68,20,1550.98,bank_transfer,completed
+GW-100340,2025-03-28,Emma Novak,Middle East,mobile app,Home & Kitchen,Cast Iron Skillet,2,343.80,10,618.84,bank_transfer,completed
+GW-100341,2025-02-05,Mia Park,Latin America,web,Office,Standing Desk,2,269.07,5,511.23,apple_pay,completed
+GW-100342,2025-02-14,Kai Meyer,Middle East,mobile app,Electronics,Mechanical Keyboard,4,186.09,5,707.14,bank_transfer,completed
+GW-100343,2025-02-22,Nora Haddad,Asia Pacific,marketplace,Outdoors,Trekking Poles,3,419.23,0,1257.69,bank_transfer,completed
+GW-100344,2025-08-31,Hugo Lindqvist,Europe,marketplace,Office,Standing Desk,3,466.07,5,1328.30,apple_pay,completed
+GW-100345,2025-05-16,Leo Haddad,North America,marketplace,Home & Kitchen,Blender,2,75.82,10,136.48,bank_transfer,completed
+GW-100346,2025-12-31,Noah Novak,North America,mobile app,Electronics,Mechanical Keyboard,2,315.24,20,504.38,apple_pay,completed
+GW-100347,2025-04-04,Liam Silva,North America,retail,Office,Ergonomic Chair,2,133.24,0,266.48,apple_pay,refunded
+GW-100348,2025-08-02,Leo Moreau,North America,retail,Home & Kitchen,Espresso Machine,3,59.49,5,169.55,bank_transfer,pending
+GW-100349,2025-09-02,Nora Singh,Middle East,retail,Office,Ergonomic Chair,5,481.77,0,2408.85,paypal,pending
+GW-100350,2025-03-08,Olivia Kato,North America,retail,Outdoors,Trekking Poles,2,50.42,0,100.84,apple_pay,completed
+GW-100351,2025-04-20,Sofia Reed,Middle East,retail,Outdoors,Insulated Bottle,3,68.97,0,206.91,apple_pay,refunded
+GW-100352,2025-06-09,Ethan Bauer,North America,mobile app,Home & Kitchen,Espresso Machine,2,238.16,20,381.06,paypal,completed
+GW-100353,2025-02-11,Ingrid Singh,Latin America,web,Outdoors,Trekking Poles,2,306.83,0,613.66,credit_card,refunded
+GW-100354,2025-07-28,Lucas Costa,Latin America,retail,Home & Kitchen,Air Fryer,2,478.60,15,813.62,credit_card,completed
+GW-100355,2025-03-17,Yuki Vance,North America,retail,Home & Kitchen,Cast Iron Skillet,3,464.90,15,1185.49,credit_card,completed
+GW-100356,2025-05-16,Omar Meyer,Asia Pacific,retail,Office,Desk Lamp,3,233.67,10,630.91,bank_transfer,completed
+GW-100357,2025-10-06,Kai Haddad,Middle East,mobile app,Outdoors,Camping Tent,5,200.69,0,1003.45,bank_transfer,pending
+GW-100358,2025-03-13,Isla Silva,Middle East,retail,Office,Monitor Arm,1,368.81,0,368.81,apple_pay,completed
+GW-100359,2025-11-27,Liam Reed,Middle East,marketplace,Home & Kitchen,Blender,1,499.70,0,499.70,apple_pay,completed
+GW-100360,2025-02-27,Hugo Haddad,North America,retail,Office,Monitor Arm,4,261.25,15,888.25,apple_pay,completed
+GW-100361,2025-07-08,Isla Park,Asia Pacific,web,Outdoors,Trekking Poles,2,381.65,0,763.30,credit_card,completed
+GW-100362,2025-02-15,Mia Okafor,Europe,marketplace,Office,Noise-Cancelling Headset,4,306.33,0,1225.32,credit_card,completed
+GW-100363,2025-12-14,Lucas Haddad,Latin America,web,Office,Desk Lamp,5,24.22,0,121.10,paypal,completed
+GW-100364,2025-02-06,Zoe Haddad,Middle East,marketplace,Outdoors,Trail Backpack,2,200.79,0,401.58,credit_card,completed
+GW-100365,2025-09-02,Aiden Silva,North America,web,Outdoors,Camping Tent,3,291.51,15,743.35,paypal,pending
+GW-100366,2025-04-14,Noah Haddad,North America,mobile app,Outdoors,Trekking Poles,3,122.11,10,329.70,apple_pay,completed
+GW-100367,2025-04-08,Lucas Novak,Latin America,web,Outdoors,Trail Backpack,3,184.89,10,499.20,apple_pay,completed
+GW-100368,2025-09-27,Omar Tanaka,North America,marketplace,Office,Ergonomic Chair,5,64.77,5,307.66,apple_pay,completed
+GW-100369,2025-07-11,Leo Nolan,Asia Pacific,marketplace,Office,Desk Lamp,4,306.49,0,1225.96,paypal,refunded
+GW-100370,2025-10-12,Olivia Reed,Asia Pacific,mobile app,Home & Kitchen,Espresso Machine,3,498.68,20,1196.83,apple_pay,completed
+GW-100371,2025-02-20,Ava Costa,Middle East,mobile app,Office,Noise-Cancelling Headset,1,491.88,0,491.88,apple_pay,completed
+GW-100372,2025-12-26,Yuki Haddad,Europe,retail,Electronics,Portable SSD,2,12.60,20,20.16,credit_card,completed
+GW-100373,2025-02-07,Olivia Lindqvist,Latin America,mobile app,Office,Standing Desk,3,378.62,10,1022.27,bank_transfer,completed
+GW-100374,2025-04-20,Aiden Silva,North America,marketplace,Home & Kitchen,Cast Iron Skillet,2,164.38,20,263.01,paypal,pending
+GW-100375,2025-04-06,Zoe Costa,Europe,mobile app,Office,Standing Desk,3,37.28,5,106.25,credit_card,completed
+GW-100376,2025-04-04,Ava Singh,Middle East,marketplace,Home & Kitchen,Robot Vacuum,3,128.31,0,384.93,apple_pay,completed
+GW-100377,2025-04-26,Omar Bauer,Latin America,retail,Outdoors,Trekking Poles,4,355.57,0,1422.28,paypal,refunded
+GW-100378,2025-02-25,Yuki Singh,Latin America,retail,Office,Desk Lamp,1,148.66,0,148.66,credit_card,completed
+GW-100379,2025-12-21,Isla Novak,North America,web,Electronics,Mechanical Keyboard,3,380.32,15,969.82,paypal,completed
+GW-100380,2025-10-15,Mia Haddad,Middle East,marketplace,Electronics,4K Monitor,4,496.44,0,1985.76,paypal,pending
+GW-100381,2025-11-23,Hugo Kato,Latin America,marketplace,Outdoors,Headlamp,2,419.40,5,796.86,paypal,refunded
+GW-100382,2025-01-16,Mia Park,Europe,marketplace,Electronics,4K Monitor,4,22.01,5,83.64,bank_transfer,completed
+GW-100383,2025-12-12,Kai Cole,North America,marketplace,Electronics,4K Monitor,3,418.16,15,1066.31,credit_card,pending
+GW-100384,2025-01-20,Emma Ivanov,Europe,mobile app,Home & Kitchen,Robot Vacuum,4,462.85,10,1666.26,bank_transfer,completed
+GW-100385,2025-04-01,Kai Haddad,Latin America,web,Outdoors,Headlamp,1,85.26,10,76.73,credit_card,pending
+GW-100386,2025-11-24,Kai Kato,Latin America,web,Outdoors,Trail Backpack,4,118.22,5,449.24,credit_card,completed
+GW-100387,2025-09-27,Nora Moreau,Middle East,marketplace,Electronics,Wireless Earbuds,1,462.21,0,462.21,bank_transfer,refunded
+GW-100388,2025-01-14,Kai Ross,Middle East,mobile app,Office,Ergonomic Chair,2,346.70,10,624.06,apple_pay,completed
+GW-100389,2025-01-29,Aiden Silva,Middle East,retail,Outdoors,Insulated Bottle,4,337.63,15,1147.94,apple_pay,completed
+GW-100390,2025-05-05,Priya Lindqvist,Latin America,web,Electronics,USB-C Hub,5,396.80,0,1984.00,apple_pay,completed
+GW-100391,2025-08-17,Yuki Tanaka,Middle East,retail,Electronics,4K Monitor,4,457.17,20,1462.94,apple_pay,completed
+GW-100392,2025-08-31,Emma Silva,North America,marketplace,Electronics,Wireless Earbuds,1,363.18,15,308.70,paypal,completed
+GW-100393,2025-02-06,Isla Singh,North America,web,Electronics,Wireless Earbuds,2,175.58,0,351.16,apple_pay,pending
+GW-100394,2025-04-16,Isla Novak,North America,mobile app,Outdoors,Insulated Bottle,2,85.96,20,137.54,credit_card,pending
+GW-100395,2025-05-25,Isla Tanaka,North America,marketplace,Home & Kitchen,Blender,3,166.20,10,448.74,paypal,refunded
+GW-100396,2025-11-20,Yuki Vance,North America,web,Outdoors,Trail Backpack,2,85.29,0,170.58,credit_card,refunded
+GW-100397,2025-02-17,Yuki Nolan,Latin America,retail,Home & Kitchen,Blender,4,436.16,5,1657.41,paypal,completed
+GW-100398,2025-12-20,Isla Park,Middle East,web,Electronics,Webcam,4,284.45,0,1137.80,paypal,pending
+GW-100399,2025-05-23,Omar Park,Middle East,web,Office,Noise-Cancelling Headset,5,33.06,10,148.77,apple_pay,completed
+GW-100400,2025-04-18,Isla Okafor,Middle East,web,Home & Kitchen,Air Fryer,3,490.42,10,1324.13,paypal,completed
+GW-100401,2025-11-03,Ingrid Lindqvist,North America,mobile app,Electronics,Wireless Earbuds,5,335.93,20,1343.72,paypal,refunded
+GW-100402,2025-02-07,Lucas Haddad,Middle East,mobile app,Office,Noise-Cancelling Headset,2,206.70,0,413.40,apple_pay,completed
+GW-100403,2025-05-05,Emma Diaz,Latin America,retail,Office,Ergonomic Chair,4,314.38,0,1257.52,paypal,pending
+GW-100404,2025-05-03,Ethan Haddad,Europe,mobile app,Home & Kitchen,Cast Iron Skillet,2,183.19,20,293.10,paypal,pending
+GW-100405,2025-01-28,Leo Park,Middle East,retail,Electronics,4K Monitor,4,91.54,0,366.16,bank_transfer,pending
+GW-100406,2025-03-27,Priya Novak,Asia Pacific,web,Electronics,Webcam,3,348.27,10,940.33,paypal,completed
+GW-100407,2025-08-06,Sofia Ivanov,Europe,web,Electronics,Portable SSD,3,431.65,5,1230.20,credit_card,completed
+GW-100408,2025-05-03,Isla Meyer,North America,retail,Home & Kitchen,Espresso Machine,3,233.76,0,701.28,apple_pay,completed
+GW-100409,2025-08-06,Ava Tanaka,Europe,retail,Home & Kitchen,Cast Iron Skillet,1,498.89,20,399.11,credit_card,completed
+GW-100410,2025-11-10,Ethan Haddad,Asia Pacific,web,Electronics,4K Monitor,4,182.99,0,731.96,bank_transfer,completed
+GW-100411,2025-04-16,Isla Ross,North America,marketplace,Electronics,4K Monitor,4,431.12,0,1724.48,credit_card,refunded
+GW-100412,2025-02-16,Emma Ross,North America,marketplace,Home & Kitchen,Cast Iron Skillet,4,483.61,10,1741.00,bank_transfer,completed
+GW-100413,2025-03-11,Lucas Costa,North America,retail,Outdoors,Insulated Bottle,2,34.46,5,65.47,paypal,completed
+GW-100414,2025-04-23,Ingrid Park,Middle East,marketplace,Outdoors,Camping Tent,1,278.66,0,278.66,bank_transfer,completed
+GW-100415,2025-07-23,Noah Vance,North America,marketplace,Electronics,Wireless Earbuds,4,41.56,0,166.24,bank_transfer,completed
+GW-100416,2025-02-06,Ingrid Okafor,Latin America,marketplace,Home & Kitchen,Espresso Machine,2,425.48,0,850.96,bank_transfer,completed
+GW-100417,2025-10-14,Mia Kato,Latin America,marketplace,Electronics,Webcam,3,464.72,5,1324.45,bank_transfer,pending
+GW-100418,2025-04-06,Mia Bauer,North America,web,Office,Monitor Arm,4,353.83,5,1344.55,credit_card,refunded
+GW-100419,2025-10-09,Priya Ross,Europe,mobile app,Office,Desk Lamp,1,188.22,20,150.58,paypal,completed
+GW-100420,2025-06-21,Kai Singh,Asia Pacific,retail,Home & Kitchen,Cast Iron Skillet,5,195.29,20,781.16,credit_card,completed
+GW-100421,2025-09-07,Nora Haddad,Asia Pacific,marketplace,Electronics,4K Monitor,1,305.99,10,275.39,apple_pay,completed
+GW-100422,2025-12-29,Noah Ross,Europe,web,Office,Monitor Arm,2,119.98,5,227.96,apple_pay,refunded
+GW-100423,2025-06-25,Kai Moreau,Middle East,mobile app,Electronics,4K Monitor,2,272.36,15,463.01,credit_card,completed
+GW-100424,2025-07-19,Yuki Ivanov,Europe,web,Electronics,Mechanical Keyboard,1,186.50,0,186.50,paypal,completed
+GW-100425,2025-01-30,Emma Lindqvist,Asia Pacific,mobile app,Office,Standing Desk,4,76.06,15,258.60,credit_card,completed
+GW-100426,2025-07-28,Olivia Silva,Latin America,mobile app,Office,Ergonomic Chair,3,320.52,0,961.56,paypal,completed
+GW-100427,2025-12-06,Priya Bauer,Latin America,marketplace,Office,Desk Lamp,2,243.68,0,487.36,bank_transfer,pending
+GW-100428,2025-01-26,Lucas Vance,Middle East,retail,Office,Monitor Arm,2,290.13,5,551.25,paypal,completed
+GW-100429,2025-12-15,Emma Singh,Asia Pacific,retail,Office,Ergonomic Chair,4,413.81,0,1655.24,bank_transfer,pending
+GW-100430,2025-05-22,Hugo Tanaka,Europe,mobile app,Office,Desk Lamp,3,353.25,0,1059.75,bank_transfer,completed
+GW-100431,2025-07-19,Hugo Novak,Asia Pacific,web,Electronics,Wireless Earbuds,1,60.21,15,51.18,paypal,completed
+GW-100432,2025-12-20,Omar Novak,Latin America,marketplace,Office,Desk Lamp,2,192.18,5,365.14,credit_card,completed
+GW-100433,2025-09-18,Leo Bauer,Asia Pacific,marketplace,Electronics,USB-C Hub,5,383.35,20,1533.40,paypal,refunded
+GW-100434,2025-05-26,Noah Reed,Europe,retail,Electronics,Mechanical Keyboard,4,401.11,5,1524.22,apple_pay,pending
+GW-100435,2025-08-31,Olivia Lindqvist,Asia Pacific,marketplace,Electronics,USB-C Hub,5,115.79,0,578.95,credit_card,pending
+GW-100436,2025-09-02,Hugo Kato,Latin America,marketplace,Outdoors,Insulated Bottle,3,380.73,15,970.86,paypal,completed
+GW-100437,2025-08-24,Hugo Moreau,Europe,mobile app,Home & Kitchen,Espresso Machine,4,323.44,15,1099.70,paypal,completed
+GW-100438,2025-04-16,Ingrid Novak,Middle East,retail,Office,Monitor Arm,2,240.22,20,384.35,paypal,completed
+GW-100439,2025-02-01,Yuki Lindqvist,Europe,web,Home & Kitchen,Espresso Machine,2,387.44,5,736.14,apple_pay,completed
+GW-100440,2025-12-02,Leo Okafor,North America,web,Home & Kitchen,Air Fryer,4,111.48,5,423.62,paypal,completed
+GW-100441,2025-12-28,Noah Moreau,Middle East,mobile app,Home & Kitchen,Robot Vacuum,4,150.90,0,603.60,credit_card,pending
+GW-100442,2025-01-25,Ingrid Nolan,North America,marketplace,Office,Noise-Cancelling Headset,1,327.81,20,262.25,apple_pay,refunded
+GW-100443,2025-10-15,Ingrid Cole,North America,marketplace,Office,Standing Desk,5,53.71,5,255.12,apple_pay,refunded
+GW-100444,2025-07-15,Ava Silva,Middle East,mobile app,Office,Desk Lamp,1,161.01,0,161.01,paypal,completed
+GW-100445,2025-06-15,Olivia Reed,North America,marketplace,Home & Kitchen,Blender,5,301.16,0,1505.80,bank_transfer,completed
+GW-100446,2025-04-21,Mia Ross,North America,web,Outdoors,Trekking Poles,4,72.95,5,277.21,bank_transfer,completed
+GW-100447,2025-11-27,Lucas Haddad,Asia Pacific,web,Office,Ergonomic Chair,5,142.91,0,714.55,bank_transfer,refunded
+GW-100448,2025-11-25,Nora Reed,Middle East,retail,Electronics,Portable SSD,1,97.70,10,87.93,bank_transfer,refunded
+GW-100449,2025-12-22,Kai Vance,North America,web,Electronics,Wireless Earbuds,2,70.95,0,141.90,bank_transfer,refunded
+GW-100450,2025-02-17,Priya Silva,Europe,web,Electronics,4K Monitor,4,475.09,0,1900.36,apple_pay,pending
+GW-100451,2025-04-03,Ava Diaz,North America,mobile app,Outdoors,Insulated Bottle,1,417.19,20,333.75,credit_card,pending
+GW-100452,2025-06-27,Ava Ross,Europe,retail,Outdoors,Insulated Bottle,1,175.54,0,175.54,bank_transfer,completed
+GW-100453,2025-09-22,Emma Novak,Latin America,web,Outdoors,Headlamp,5,391.83,20,1567.32,credit_card,pending
+GW-100454,2025-02-21,Ingrid Meyer,Middle East,web,Home & Kitchen,Air Fryer,3,126.42,15,322.37,credit_card,refunded
+GW-100455,2025-03-22,Mia Diaz,North America,mobile app,Office,Monitor Arm,3,208.99,0,626.97,bank_transfer,refunded
+GW-100456,2025-07-13,Liam Tanaka,Asia Pacific,web,Outdoors,Insulated Bottle,4,389.99,15,1325.97,credit_card,completed
+GW-100457,2025-04-04,Kai Reed,Middle East,marketplace,Outdoors,Headlamp,1,15.64,15,13.29,apple_pay,completed
+GW-100458,2025-03-15,Isla Lindqvist,Latin America,mobile app,Electronics,Portable SSD,2,185.15,0,370.30,apple_pay,refunded
+GW-100459,2025-04-06,Leo Vance,Middle East,web,Electronics,USB-C Hub,1,271.70,15,230.94,paypal,completed
+GW-100460,2025-09-03,Mia Moreau,Middle East,mobile app,Electronics,Portable SSD,1,68.99,0,68.99,apple_pay,completed
+GW-100461,2025-11-08,Noah Park,Asia Pacific,retail,Electronics,Portable SSD,2,133.64,0,267.28,apple_pay,completed
+GW-100462,2025-09-01,Lucas Silva,Latin America,mobile app,Home & Kitchen,Blender,3,466.30,15,1189.07,bank_transfer,completed
+GW-100463,2025-01-25,Isla Diaz,Asia Pacific,retail,Electronics,Portable SSD,5,419.76,20,1679.04,credit_card,completed
+GW-100464,2025-11-28,Yuki Costa,Europe,web,Home & Kitchen,Robot Vacuum,5,497.64,0,2488.20,paypal,refunded
+GW-100465,2025-08-30,Hugo Costa,Middle East,marketplace,Office,Standing Desk,5,24.42,15,103.79,apple_pay,completed
+GW-100466,2025-02-23,Isla Silva,Latin America,web,Outdoors,Insulated Bottle,4,413.91,0,1655.64,paypal,completed
+GW-100467,2025-06-19,Ava Novak,Middle East,marketplace,Office,Ergonomic Chair,2,32.08,0,64.16,credit_card,refunded
+GW-100468,2025-09-10,Lucas Novak,Latin America,web,Electronics,Webcam,3,321.08,0,963.24,bank_transfer,completed
+GW-100469,2025-06-08,Noah Novak,Europe,retail,Outdoors,Headlamp,3,486.32,15,1240.12,apple_pay,completed
+GW-100470,2025-05-09,Aiden Bauer,Middle East,marketplace,Electronics,Mechanical Keyboard,3,154.27,0,462.81,bank_transfer,completed
+GW-100471,2025-12-26,Isla Nolan,Europe,marketplace,Electronics,Mechanical Keyboard,4,192.49,10,692.96,credit_card,completed
+GW-100472,2025-11-28,Aiden Reed,Latin America,retail,Office,Ergonomic Chair,3,42.04,0,126.12,bank_transfer,refunded
+GW-100473,2025-04-24,Lucas Novak,North America,web,Electronics,USB-C Hub,4,77.06,5,292.83,paypal,completed
+GW-100474,2025-10-10,Mia Tanaka,Middle East,mobile app,Office,Standing Desk,2,195.40,0,390.80,apple_pay,pending
+GW-100475,2025-01-26,Ethan Vance,North America,web,Electronics,4K Monitor,3,129.85,10,350.59,paypal,pending
+GW-100476,2025-02-26,Yuki Diaz,Asia Pacific,web,Electronics,USB-C Hub,2,474.28,0,948.56,credit_card,completed
+GW-100477,2025-05-14,Ethan Nolan,Latin America,marketplace,Home & Kitchen,Blender,2,394.59,15,670.80,credit_card,completed
+GW-100478,2025-08-20,Isla Singh,Europe,marketplace,Outdoors,Camping Tent,2,134.43,20,215.09,paypal,completed
+GW-100479,2025-08-08,Priya Novak,Latin America,mobile app,Home & Kitchen,Air Fryer,2,469.50,0,939.00,bank_transfer,completed
+GW-100480,2025-06-01,Aiden Lindqvist,Middle East,mobile app,Office,Standing Desk,5,111.56,0,557.80,bank_transfer,completed
+GW-100481,2025-04-06,Omar Cole,Middle East,web,Outdoors,Trail Backpack,4,380.07,0,1520.28,apple_pay,refunded
+GW-100482,2025-10-28,Leo Diaz,Europe,retail,Office,Ergonomic Chair,2,79.33,5,150.73,bank_transfer,completed
+GW-100483,2025-01-22,Liam Tanaka,North America,retail,Outdoors,Headlamp,4,330.68,20,1058.18,bank_transfer,completed
+GW-100484,2025-10-01,Kai Ivanov,Europe,mobile app,Outdoors,Trekking Poles,3,195.91,0,587.73,apple_pay,completed
+GW-100485,2025-06-24,Kai Tanaka,Europe,marketplace,Office,Monitor Arm,5,207.58,0,1037.90,paypal,completed
+GW-100486,2025-03-22,Kai Moreau,Latin America,web,Outdoors,Headlamp,1,128.28,0,128.28,credit_card,pending
+GW-100487,2025-07-25,Zoe Tanaka,North America,retail,Outdoors,Trekking Poles,3,169.48,15,432.17,paypal,completed
+GW-100488,2025-11-01,Ingrid Haddad,Europe,retail,Electronics,Webcam,1,351.84,10,316.66,apple_pay,completed
+GW-100489,2025-07-26,Yuki Vance,Middle East,marketplace,Office,Ergonomic Chair,5,366.47,0,1832.35,apple_pay,completed
+GW-100490,2025-02-09,Olivia Nolan,North America,marketplace,Electronics,Mechanical Keyboard,3,364.92,0,1094.76,paypal,pending
+GW-100491,2025-04-16,Zoe Park,Middle East,retail,Outdoors,Camping Tent,3,383.82,10,1036.31,credit_card,completed
+GW-100492,2025-05-22,Mia Novak,Middle East,marketplace,Electronics,USB-C Hub,1,71.85,15,61.07,credit_card,refunded
+GW-100493,2025-04-24,Mia Vance,Middle East,marketplace,Electronics,Portable SSD,3,163.36,15,416.57,apple_pay,pending
+GW-100494,2025-03-16,Emma Diaz,Europe,web,Home & Kitchen,Espresso Machine,1,283.46,0,283.46,paypal,completed
+GW-100495,2025-07-22,Emma Tanaka,Latin America,marketplace,Home & Kitchen,Blender,4,378.95,0,1515.80,credit_card,pending
+GW-100496,2025-06-14,Aiden Haddad,Europe,mobile app,Home & Kitchen,Espresso Machine,2,152.93,0,305.86,apple_pay,refunded
+GW-100497,2025-09-10,Ava Ivanov,North America,mobile app,Home & Kitchen,Blender,3,137.30,10,370.71,credit_card,completed
+GW-100498,2025-02-04,Liam Okafor,North America,mobile app,Outdoors,Trail Backpack,2,172.59,0,345.18,paypal,completed
+GW-100499,2025-01-11,Noah Park,Asia Pacific,retail,Home & Kitchen,Cast Iron Skillet,3,81.02,0,243.06,credit_card,refunded
+GW-100500,2025-08-14,Olivia Singh,Latin America,web,Office,Ergonomic Chair,4,429.19,0,1716.76,bank_transfer,completed
+GW-100501,2025-01-14,Olivia Novak,North America,marketplace,Home & Kitchen,Air Fryer,2,54.58,0,109.16,paypal,completed
+GW-100502,2025-05-07,Zoe Costa,Middle East,retail,Office,Noise-Cancelling Headset,2,341.21,5,648.30,credit_card,completed
+GW-100503,2025-04-17,Nora Cole,Latin America,marketplace,Home & Kitchen,Cast Iron Skillet,1,149.39,0,149.39,paypal,completed
+GW-100504,2025-01-21,Sofia Vance,Middle East,marketplace,Office,Noise-Cancelling Headset,1,249.50,0,249.50,bank_transfer,completed
+GW-100505,2025-05-14,Yuki Ivanov,Middle East,marketplace,Outdoors,Camping Tent,3,95.68,0,287.04,credit_card,completed
+GW-100506,2025-03-20,Hugo Meyer,Latin America,retail,Home & Kitchen,Espresso Machine,3,13.54,0,40.62,paypal,pending
+GW-100507,2025-05-18,Ava Park,Middle East,web,Office,Ergonomic Chair,2,198.96,0,397.92,bank_transfer,pending
+GW-100508,2025-06-23,Omar Costa,Asia Pacific,marketplace,Electronics,Wireless Earbuds,5,303.01,20,1212.04,credit_card,refunded
+GW-100509,2025-08-10,Noah Okafor,Latin America,marketplace,Home & Kitchen,Espresso Machine,1,462.50,20,370.00,bank_transfer,pending
+GW-100510,2025-01-26,Priya Reed,North America,mobile app,Outdoors,Insulated Bottle,3,355.29,10,959.28,bank_transfer,pending
+GW-100511,2025-12-01,Emma Silva,Middle East,marketplace,Outdoors,Trail Backpack,1,351.41,0,351.41,apple_pay,refunded
+GW-100512,2025-01-11,Aiden Haddad,Europe,retail,Office,Standing Desk,4,258.63,0,1034.52,bank_transfer,completed
+GW-100513,2025-03-23,Isla Lindqvist,Latin America,retail,Outdoors,Camping Tent,4,375.25,0,1501.00,paypal,refunded
+GW-100514,2025-03-05,Ava Singh,Middle East,web,Home & Kitchen,Air Fryer,1,264.46,0,264.46,apple_pay,completed
+GW-100515,2025-03-11,Liam Kato,Latin America,marketplace,Electronics,4K Monitor,3,30.86,0,92.58,apple_pay,pending
+GW-100516,2025-05-24,Sofia Meyer,Latin America,retail,Home & Kitchen,Cast Iron Skillet,5,29.38,20,117.52,credit_card,pending
+GW-100517,2025-03-20,Zoe Kato,North America,mobile app,Outdoors,Camping Tent,1,86.37,0,86.37,paypal,completed
+GW-100518,2025-08-29,Noah Ross,Latin America,mobile app,Electronics,Wireless Earbuds,2,125.32,5,238.11,bank_transfer,completed
+GW-100519,2025-09-07,Noah Diaz,Europe,mobile app,Outdoors,Trail Backpack,2,412.34,10,742.21,bank_transfer,refunded
+GW-100520,2025-03-15,Ethan Nolan,Asia Pacific,retail,Home & Kitchen,Robot Vacuum,2,54.22,0,108.44,credit_card,completed
+GW-100521,2025-06-03,Omar Park,Europe,mobile app,Office,Standing Desk,1,399.71,10,359.74,bank_transfer,pending
+GW-100522,2025-07-18,Liam Vance,Middle East,mobile app,Home & Kitchen,Robot Vacuum,1,146.20,10,131.58,bank_transfer,refunded
+GW-100523,2025-05-16,Priya Novak,Europe,mobile app,Outdoors,Trail Backpack,1,206.90,5,196.56,credit_card,completed
+GW-100524,2025-05-04,Zoe Moreau,Latin America,web,Electronics,Webcam,2,169.74,10,305.53,paypal,completed
+GW-100525,2025-10-06,Priya Park,Europe,marketplace,Outdoors,Insulated Bottle,2,82.80,0,165.60,bank_transfer,completed
+GW-100526,2025-03-18,Kai Costa,Latin America,retail,Home & Kitchen,Espresso Machine,1,319.58,0,319.58,paypal,completed
+GW-100527,2025-05-13,Ethan Nolan,Latin America,mobile app,Office,Standing Desk,2,151.05,0,302.10,apple_pay,completed
+GW-100528,2025-06-28,Lucas Park,Asia Pacific,mobile app,Office,Monitor Arm,3,332.16,20,797.18,apple_pay,refunded
+GW-100529,2025-04-26,Priya Bauer,Latin America,marketplace,Office,Noise-Cancelling Headset,3,36.33,5,103.54,apple_pay,pending
+GW-100530,2025-05-29,Omar Cole,Middle East,retail,Office,Standing Desk,4,398.71,5,1515.10,credit_card,completed
+GW-100531,2025-07-06,Sofia Diaz,Asia Pacific,retail,Electronics,Portable SSD,5,73.39,10,330.25,credit_card,pending
+GW-100532,2025-08-15,Noah Okafor,Asia Pacific,web,Office,Desk Lamp,2,476.19,20,761.90,credit_card,refunded
+GW-100533,2025-11-14,Omar Haddad,Latin America,mobile app,Home & Kitchen,Cast Iron Skillet,2,201.08,0,402.16,credit_card,completed
+GW-100534,2025-04-07,Mia Ivanov,North America,marketplace,Home & Kitchen,Espresso Machine,3,399.85,0,1199.55,apple_pay,completed
+GW-100535,2025-03-16,Leo Nolan,North America,retail,Home & Kitchen,Air Fryer,5,492.34,0,2461.70,credit_card,refunded
+GW-100536,2025-06-09,Ava Lindqvist,Middle East,web,Home & Kitchen,Cast Iron Skillet,5,339.74,5,1613.76,credit_card,completed
+GW-100537,2025-07-15,Omar Tanaka,North America,marketplace,Outdoors,Camping Tent,4,146.15,10,526.14,paypal,pending
+GW-100538,2025-11-06,Olivia Meyer,North America,mobile app,Outdoors,Trekking Poles,5,354.72,0,1773.60,apple_pay,completed
+GW-100539,2025-01-15,Emma Bauer,Middle East,mobile app,Home & Kitchen,Blender,5,24.28,20,97.12,paypal,completed
+GW-100540,2025-02-16,Hugo Ivanov,Europe,web,Office,Monitor Arm,4,206.76,5,785.69,apple_pay,pending
+GW-100541,2025-03-17,Hugo Okafor,Europe,web,Office,Desk Lamp,4,481.53,20,1540.90,bank_transfer,completed
+GW-100542,2025-04-20,Omar Nolan,Middle East,mobile app,Office,Desk Lamp,5,137.77,5,654.41,credit_card,completed
+GW-100543,2025-02-14,Nora Lindqvist,Asia Pacific,retail,Home & Kitchen,Cast Iron Skillet,5,113.05,0,565.25,paypal,completed
+GW-100544,2025-03-23,Olivia Meyer,North America,mobile app,Electronics,Portable SSD,5,184.25,5,875.19,apple_pay,pending
+GW-100545,2025-11-04,Hugo Meyer,North America,web,Outdoors,Insulated Bottle,3,282.88,0,848.64,paypal,completed
+GW-100546,2025-10-08,Isla Vance,Europe,web,Outdoors,Insulated Bottle,5,165.13,0,825.65,credit_card,completed
+GW-100547,2025-09-06,Ava Reed,North America,mobile app,Office,Ergonomic Chair,3,177.50,20,426.00,paypal,completed
+GW-100548,2025-03-07,Omar Ivanov,Middle East,mobile app,Home & Kitchen,Robot Vacuum,3,45.05,15,114.88,paypal,completed
+GW-100549,2025-12-24,Emma Bauer,Europe,retail,Outdoors,Trail Backpack,4,79.42,0,317.68,paypal,refunded
+GW-100550,2025-03-02,Noah Tanaka,Latin America,retail,Outdoors,Trail Backpack,4,93.29,0,373.16,paypal,completed
+GW-100551,2025-06-04,Hugo Vance,Asia Pacific,marketplace,Electronics,Mechanical Keyboard,2,42.31,0,84.62,credit_card,completed
+GW-100552,2025-04-19,Leo Moreau,Middle East,marketplace,Outdoors,Insulated Bottle,4,474.67,10,1708.81,bank_transfer,refunded
+GW-100553,2025-03-28,Ava Singh,North America,retail,Outdoors,Headlamp,3,259.11,0,777.33,apple_pay,pending
+GW-100554,2025-10-24,Mia Bauer,North America,mobile app,Office,Ergonomic Chair,1,207.77,10,186.99,paypal,completed
+GW-100555,2025-01-21,Priya Cole,Europe,mobile app,Office,Standing Desk,4,405.09,0,1620.36,bank_transfer,refunded
+GW-100556,2025-08-07,Ethan Novak,Middle East,marketplace,Outdoors,Trekking Poles,1,222.37,5,211.25,credit_card,completed
+GW-100557,2025-10-05,Hugo Nolan,Europe,mobile app,Office,Desk Lamp,5,424.07,20,1696.28,credit_card,completed
+GW-100558,2025-10-26,Leo Lindqvist,North America,retail,Home & Kitchen,Cast Iron Skillet,2,217.39,0,434.78,apple_pay,completed
+GW-100559,2025-08-01,Hugo Costa,Europe,web,Electronics,Webcam,5,110.08,15,467.84,paypal,pending

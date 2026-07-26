@@ -302,6 +302,37 @@ body {
   color: var(--text-tertiary);
   font-size: var(--font-size-sm);
 }
+.sample-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: var(--space-md);
+  padding: 6px 14px;
+  border: 1px solid var(--border-default);
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  color: var(--accent-primary);
+  font: inherit;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+.sample-link:hover,
+.sample-link:focus-visible {
+  border-color: var(--accent-primary);
+  background: var(--accent-soft);
+  outline: none;
+}
+.sample-icon {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: var(--accent-primary);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 .intro-points {
   display: grid;
